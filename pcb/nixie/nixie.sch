@@ -1,0 +1,167 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Nixie Clock"
+Date "2023-01-19"
+Rev "v1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 950  1050 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0101
+U 1 1 63C9B886
+P 1250 1600
+F 0 "#PWR0101" H 1250 1350 50  0001 C CNN
+F 1 "GND" H 1255 1427 50  0000 C CNN
+F 2 "" H 1250 1600 50  0001 C CNN
+F 3 "" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM7805_TO220 U1
+U 1 1 63CA1135
+P 1900 1050
+F 0 "U1" H 1900 1292 50  0000 C CNN
+F 1 "LM7805_TO220" H 1900 1201 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1900 1275 50  0001 C CIN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 1900 1000 50  0001 C CNN
+	1    1900 1050
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1900 1450
+Wire Wire Line
+	1250 1450 1250 1600
+Wire Wire Line
+	1900 1350 1900 1450
+$Comp
+L power:+12V #PWR0102
+U 1 1 63CB9397
+P 2900 850
+F 0 "#PWR0102" H 2900 700 50  0001 C CNN
+F 1 "+12V" H 2915 1023 50  0000 C CNN
+F 2 "" H 2900 850 50  0001 C CNN
+F 3 "" H 2900 850 50  0001 C CNN
+	1    2900 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1050 2900 950 
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 63CBA81A
+P 2400 1350
+F 0 "#FLG0103" H 2400 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 1523 50  0000 C CNN
+F 2 "" H 2400 1350 50  0001 C CNN
+F 3 "~" H 2400 1350 50  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1450 2400 1350
+Wire Wire Line
+	1900 1450 2400 1450
+Connection ~ 2400 1050
+Wire Wire Line
+	2400 1050 2900 1050
+Wire Wire Line
+	2200 1050 2400 1050
+Wire Wire Line
+	2400 1050 2400 850 
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 63C9C896
+P 2400 850
+F 0 "#FLG0101" H 2400 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 1023 50  0000 C CNN
+F 2 "" H 2400 850 50  0001 C CNN
+F 3 "~" H 2400 850 50  0001 C CNN
+	1    2400 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 1450
+$Comp
+L Device:CP_Small C2
+U 1 1 63CC7C0E
+P 1250 1250
+F 0 "C2" H 1338 1296 50  0000 L CNN
+F 1 "10uF" H 1338 1205 50  0000 L CNN
+F 2 "" H 1250 1250 50  0001 C CNN
+F 3 "~" H 1250 1250 50  0001 C CNN
+	1    1250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1050 1250 1150
+Wire Wire Line
+	1250 1350 1250 1450
+Connection ~ 1250 1050
+Wire Wire Line
+	1250 1050 1600 1050
+Wire Wire Line
+	1250 1450 1900 1450
+Wire Wire Line
+	950  1050 1250 1050
+Connection ~ 2900 1350
+Wire Wire Line
+	2900 1350 3150 1350
+Wire Wire Line
+	2900 1450 2900 1350
+$Comp
+L Device:CP_Small C1
+U 1 1 63CC5B38
+P 2900 1250
+F 0 "C1" H 2988 1296 50  0000 L CNN
+F 1 "1uF" H 2988 1205 50  0000 L CNN
+F 2 "" H 2900 1250 50  0001 C CNN
+F 3 "~" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1450 2900 1450
+Wire Wire Line
+	2900 1050 2900 1150
+Connection ~ 2900 1050
+Wire Wire Line
+	2900 1150 3150 1150
+Connection ~ 2900 1150
+Wire Notes Line
+	600  600  4150 600 
+Wire Notes Line
+	4150 600  4150 1900
+Wire Notes Line
+	4150 1900 600  1900
+Wire Notes Line
+	600  1900 600  600 
+Text GLabel 3250 950  2    50   Input ~ 0
++12V
+Wire Wire Line
+	3250 950  2900 950 
+Text Notes 3400 1850 0    50   ~ 0
+12V to 5V Module
+$Comp
+L Connector:Jack-DC J1
+U 1 1 63D02F7D
+P 3450 1250
+F 0 "J1" H 3220 1300 50  0000 R CNN
+F 1 "Jack-DC" H 3220 1209 50  0000 R CNN
+F 2 "" H 3500 1210 50  0001 C CNN
+F 3 "~" H 3500 1210 50  0001 C CNN
+	1    3450 1250
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1250 1450
+Connection ~ 2900 950 
+Wire Wire Line
+	2900 950  2900 850 
+$EndSCHEMATC
