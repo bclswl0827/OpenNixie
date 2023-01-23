@@ -1,4 +1,4 @@
-update=2023年01月19日 (週四) 21時07分40秒
+update=2023年01月23日 (週一) 20時54分57秒
 version=1
 last_client=kicad
 [general]

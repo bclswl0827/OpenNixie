@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRFR4620
+F https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7
+$ENDCMP
+#
+$CMP IRFR4620_copy
+F https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7
+$ENDCMP
+#
+$CMP IRFU4620
+F https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7
+$ENDCMP
+#
+#End Doc Library

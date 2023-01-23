@@ -13,7 +13,7 @@ Nixie::Nixie(uint_least8_t latchPin,
     this->clockPin = clockPin;
 }
 
-// 计算 SN74141N 译码器输入值
+// 计算 BCD 译码器输入值
 uint_least8_t Nixie::getDecoder(uint_least8_t num) {
     switch (num) {
         case 0:
@@ -41,7 +41,7 @@ uint_least8_t Nixie::getDecoder(uint_least8_t num) {
     }
 }
 
-// 设定 SN74141N 译码器输入电平
+// 设定 BCD 译码器输入电平
 void Nixie::setDecoder(uint_least8_t segment_1,
                        uint_least8_t segment_2,
                        uint_least8_t segment_3,
