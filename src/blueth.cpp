@@ -15,8 +15,6 @@ uint_least8_t Blueth::getMessage(uint_least8_t buffer[20],
                                  uint_least8_t second) {
     // 设定超时时间
     Serial->setTimeout(timeout);
-    // 清理缓存区
-    Serial->flush();
     // 报文以 $ 开头，* 结尾
     if (Serial->available() && Serial->find('$') && retry) {
         // 读取 20 个字节
@@ -43,6 +41,8 @@ uint_least8_t Blueth::getMessage(uint_least8_t buffer[20],
             delay(200);
             return getMessage(buffer, timeout, --retry, minute, second);
         }
+        // 通告对时完成
+        setMessage(2);
         return 1;
     }
     return 0;
@@ -54,11 +54,15 @@ void Blueth::setMessage(uint_least8_t msg) {
     switch (msg) {
         // 心跳回应
         case 0:
-            Serial->print("$PONG*");
+            Serial->println("$PONG*");
             break;
         // 对时请求
         case 1:
-            Serial->print("$GET*");
+            Serial->println("$GET*");
+            break;
+        // 对时完成
+        case 2:
+            Serial->println("$DONE*");
             break;
         default:
             break;
