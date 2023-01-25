@@ -33,11 +33,11 @@
 #define BLUETH_TX A3
 
 // 红色指示灯
-#define LED_RED D7
+#define RGB_RED D7
 // 绿色指示灯
-#define LED_GREEN D8
+#define RGB_GREEN D8
 // 蓝色指示灯
-#define LED_BLUE D9
+#define RGB_BLUE D9
 
 // 移位寄存器 ST_CP（Latch）
 #define LATCH_PIN D10

@@ -10,7 +10,7 @@ Time time(RTC_SDA, RTC_SCL, RTC_ADDR, RTC_MODEL);
 // 创建辉光管对象
 Nixie nixie(LATCH_PIN, DATA_PIN, CLOCK_PIN);
 // 创建面板对象
-Panel panel(TIME_PIN, LED_RED, LED_GREEN, LED_BLUE);
+Panel panel(TIME_PIN, RGB_RED, RGB_GREEN, RGB_BLUE);
 // 创建蓝牙对象
 Blueth blueth(BLUETH_RX, BLUETH_TX, BLUETH_BAUD);
 // 创建工具对象

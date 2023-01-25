@@ -1,23 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 74141
-F https://neon1.net/nixieclock/sn74141.pdf
-$ENDCMP
-#
-$CMP IRFR4620
-F https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7
-$ENDCMP
-#
-$CMP IRFU4620
-F https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7
-$ENDCMP
-#
-$CMP MAX1771CPA
-F https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1771.pdf
-$ENDCMP
-#
-$CMP MAX1771CSA
-F https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1771.pdf
-$ENDCMP
-#
 #End Doc Library
