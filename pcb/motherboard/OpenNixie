@@ -8,7 +8,7 @@
     </head>
     <body>
     <h1>/home/yuki/Devel/boards/Nixie_Clock/pcb/OpenNixie.sch</h1>
-    <p>2023年01月24日 (週二) 19時36分12秒</p>
+    <p>2023年01月26日 (週四) 22時05分56秒</p>
     <p>Eeschema 5.1.9+dfsg1-1+deb11u1</p>
     <p><b>Component Count:</b>137</p>
     <table>
@@ -17,24 +17,24 @@
     <tr><td>C1, C7</td><td>2</td><td>10uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
     <tr><td>C2</td><td>1</td><td>1uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
     <tr><td>C3, C5</td><td>2</td><td>470uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
-    <tr><td>C4, C8</td><td>2</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
-    <tr><td>C6</td><td>1</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C4, C6, C8</td><td>3</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
     <tr><td>D1</td><td>1</td><td>1N4148</td><td>Diode:1N4148</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td>100V 0.15A standard switching diode, DO-35</td><td></td></tr>
     <tr><td>D2</td><td>1</td><td>ES2J</td><td>Device:D_Schottky_Small</td><td>Diode_SMD:D_SMA</td><td>Schottky diode, small symbol</td><td></td></tr>
     <tr><td>D3</td><td>1</td><td>LED_RCGB</td><td>Device:LED_RCGB</td><td>LED_THT:LED_D5.0mm-4_RGB</td><td>RGB LED, red/cathode/green/blue</td><td></td></tr>
-    <tr><td>J1</td><td>1</td><td>Conn_01x02_Female</td><td>Connector:Conn_01x02_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J2, J3, J6</td><td>3</td><td>Conn_01x03_Female</td><td>Connector:Conn_01x03_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Conn_01x02</td><td>Connector_Generic:Conn_01x02</td><td>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2, J3, J6</td><td>3</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>J4</td><td>1</td><td>DC 12V</td><td>Connector:Jack-DC</td><td>Connector_BarrelJack:BarrelJack_Horizontal</td><td>DC Barrel Jack</td><td></td></tr>
-    <tr><td>J5</td><td>1</td><td>Conn_01x04_Female</td><td>Connector:Conn_01x04_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J7, J8, J9, J10</td><td>4</td><td>Conn_01x10_Female</td><td>Connector:Conn_01x10_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</td><td>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>Conn_01x04</td><td>Connector_Generic:Conn_01x04</td><td>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7, J8, J9, J10</td><td>4</td><td>Conn_01x10</td><td>Connector_Generic:Conn_01x10</td><td>Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical</td><td>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>L1</td><td>1</td><td>220uH</td><td>Device:L_Small</td><td>Inductor_THT:L_Radial_D7.0mm_P3.00mm</td><td>Inductor, small symbol</td><td></td></tr>
     <tr><td>Q1</td><td>1</td><td>S8050</td><td>Transistor_BJT:S8050</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92</td><td></td></tr>
-    <tr><td>Q2</td><td>1</td><td>IRFU4620</td><td>Nixie_Clock:IRFU4620</td><td>Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown</td><td></td><td></td></tr>
+    <tr><td>Q2</td><td>1</td><td>IRFB4620</td><td>Nixie_Clock:IRFB4620</td><td>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</td><td></td><td></td></tr>
     <tr><td>Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40, Q41, Q42</td><td>40</td><td>MPSA42</td><td>Transistor_BJT:MPSA42</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92</td><td></td></tr>
-    <tr><td>R1, R3, R6</td><td>3</td><td>1k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R1, R3</td><td>2</td><td>1k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R2</td><td>1</td><td>100k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R4</td><td>1</td><td>1M</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R5</td><td>1</td><td>10M</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>20k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R7, R8</td><td>2</td><td>10k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R9, R10, R11</td><td>3</td><td>4.7k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R12</td><td>1</td><td>68k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>

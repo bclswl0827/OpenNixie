@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/yuki/Devel/boards/Nixie_Clock/pcb/OpenNixie.sch</source>
-    <date>2023年01月24日 (週二) 19時36分12秒</date>
+    <date>2023年01月26日 (週四) 22時05分56秒</date>
     <tool>Eeschema 5.1.9+dfsg1-1+deb11u1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -34,22 +34,6 @@
       <libsource lib="Timer" part="NE555P" description="Precision Timers, 555 compatible,  PDIP-8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>63CC1217</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>1M</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63D6C6D5</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>470uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63E75B6E</tstamp>
     </comp>
     <comp ref="C2">
       <value>1uF</value>
@@ -83,14 +67,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>63D59A6D</tstamp>
     </comp>
-    <comp ref="RV1">
-      <value>200k</value>
-      <footprint>Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT_Small" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63FFEE4C</tstamp>
-    </comp>
     <comp ref="R1">
       <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
@@ -115,118 +91,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>63FB9C2C</tstamp>
     </comp>
-    <comp ref="Q2">
-      <value>IRFU4620</value>
-      <footprint>Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown</footprint>
-      <datasheet>https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7</datasheet>
-      <libsource lib="Nixie_Clock" part="IRFU4620" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63D61B5D</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63E82EE3</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>68k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63E66239</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>10M</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63E5A426</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>ES2J</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63E25C25</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>0.05</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63DD3957</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>470uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63DC25DE</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63DAEE6F</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>220uH</value>
-      <footprint>Inductor_THT:L_Radial_D7.0mm_P3.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63D8F31B</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63D1D488</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>4.7k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>63D0E94B</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>Conn_01x04_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>65A1F699</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>Conn_01x02_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>66038BB2</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Conn_01x03_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>661565CA</tstamp>
-    </comp>
     <comp ref="J4">
       <value>DC 12V</value>
       <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
@@ -250,6 +114,22 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>647D0BE4</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TSDP341xx</value>
+      <footprint>OptoDevice:Vishay_MOLD-3Pin</footprint>
+      <datasheet>http://www.vishay.com/docs/82667/tsdp341.pdf</datasheet>
+      <libsource lib="Interface_Optical" part="TSDP341xx" description="IR Receiver Modules for Data Transmission"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64FC3A83</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7F9A4694</tstamp>
     </comp>
     <comp ref="R9">
       <value>4.7k</value>
@@ -283,30 +163,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>64B0467A</tstamp>
     </comp>
-    <comp ref="J6">
-      <value>Conn_01x03_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>64FAE9BF</tstamp>
-    </comp>
-    <comp ref="U6">
-      <value>TSDP341xx</value>
-      <footprint>OptoDevice:Vishay_MOLD-3Pin</footprint>
-      <datasheet>http://www.vishay.com/docs/82667/tsdp341.pdf</datasheet>
-      <libsource lib="Interface_Optical" part="TSDP341xx" description="IR Receiver Modules for Data Transmission"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>64FC3A83</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>Conn_01x03_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>65246C66</tstamp>
-    </comp>
     <comp ref="U4">
       <value>DS3231M</value>
       <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
@@ -331,773 +187,101 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>64E1E9FF</tstamp>
     </comp>
+    <comp ref="BT1">
+      <value>3V</value>
+      <footprint>Battery:BatteryHolder_Keystone_1058_1x2032</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>646603B2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D6C6D5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E75B6E</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>200k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_Small" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63FFEE4C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E82EE3</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>68k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E66239</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0.05</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63DD3957</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63DC25DE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63DAEE6F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D1D488</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0E94B</tstamp>
+    </comp>
     <comp ref="R6">
-      <value>1k</value>
+      <value>20k</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6A87AE72</tstamp>
-    </comp>
-    <comp ref="J7">
-      <value>Conn_01x10_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6E1F9A64</tstamp>
-    </comp>
-    <comp ref="J8">
-      <value>Conn_01x10_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6E1FC01C</tstamp>
-    </comp>
-    <comp ref="J9">
-      <value>Conn_01x10_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6E279E8B</tstamp>
-    </comp>
-    <comp ref="J10">
-      <value>Conn_01x10_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6E2B7A16</tstamp>
-    </comp>
-    <comp ref="Q35">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD665</tstamp>
-    </comp>
-    <comp ref="R35">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD655</tstamp>
-    </comp>
-    <comp ref="R37">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD64F</tstamp>
-    </comp>
-    <comp ref="R39">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD649</tstamp>
-    </comp>
-    <comp ref="R41">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD643</tstamp>
-    </comp>
-    <comp ref="R45">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD63C</tstamp>
-    </comp>
-    <comp ref="Q29">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD630</tstamp>
-    </comp>
-    <comp ref="Q23">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD626</tstamp>
-    </comp>
-    <comp ref="Q25">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD61C</tstamp>
-    </comp>
-    <comp ref="R43">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD60D</tstamp>
-    </comp>
-    <comp ref="Q31">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD607</tstamp>
-    </comp>
-    <comp ref="R47">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD601</tstamp>
-    </comp>
-    <comp ref="Q37">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD5FB</tstamp>
-    </comp>
-    <comp ref="R53">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD5F5</tstamp>
-    </comp>
-    <comp ref="Q33">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD5E3</tstamp>
-    </comp>
-    <comp ref="Q27">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>76AFD5DD</tstamp>
-    </comp>
-    <comp ref="Q36">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE53</tstamp>
-    </comp>
-    <comp ref="R36">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE43</tstamp>
-    </comp>
-    <comp ref="R38">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE3D</tstamp>
-    </comp>
-    <comp ref="R40">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE37</tstamp>
-    </comp>
-    <comp ref="R42">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE31</tstamp>
-    </comp>
-    <comp ref="R46">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE2A</tstamp>
-    </comp>
-    <comp ref="Q30">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE1E</tstamp>
-    </comp>
-    <comp ref="Q24">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE14</tstamp>
-    </comp>
-    <comp ref="Q26">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DE0A</tstamp>
-    </comp>
-    <comp ref="R44">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDFB</tstamp>
-    </comp>
-    <comp ref="Q32">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDF5</tstamp>
-    </comp>
-    <comp ref="R48">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDEF</tstamp>
-    </comp>
-    <comp ref="Q38">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDE9</tstamp>
-    </comp>
-    <comp ref="R54">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDE3</tstamp>
-    </comp>
-    <comp ref="Q34">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDD1</tstamp>
-    </comp>
-    <comp ref="Q28">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7690DDCB</tstamp>
-    </comp>
-    <comp ref="Q16">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FC26</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FC16</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FC10</tstamp>
-    </comp>
-    <comp ref="R20">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FC0A</tstamp>
-    </comp>
-    <comp ref="R22">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FC04</tstamp>
-    </comp>
-    <comp ref="R26">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBFD</tstamp>
-    </comp>
-    <comp ref="Q10">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBF1</tstamp>
-    </comp>
-    <comp ref="Q4">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBE7</tstamp>
-    </comp>
-    <comp ref="Q6">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBDD</tstamp>
-    </comp>
-    <comp ref="R24">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBCE</tstamp>
-    </comp>
-    <comp ref="Q12">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBC8</tstamp>
-    </comp>
-    <comp ref="R28">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBC2</tstamp>
-    </comp>
-    <comp ref="Q18">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBBC</tstamp>
-    </comp>
-    <comp ref="R34">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBB6</tstamp>
-    </comp>
-    <comp ref="Q14">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FBA4</tstamp>
-    </comp>
-    <comp ref="Q8">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7676FB9E</tstamp>
-    </comp>
-    <comp ref="U16">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>67E006FF</tstamp>
-    </comp>
-    <comp ref="U13">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>67E00712</tstamp>
-    </comp>
-    <comp ref="Q42">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72524BB0</tstamp>
-    </comp>
-    <comp ref="R52">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72524C59</tstamp>
-    </comp>
-    <comp ref="Q40">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72524C5F</tstamp>
-    </comp>
-    <comp ref="U14">
-      <value>74HC595</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
-      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>654500FC</tstamp>
-    </comp>
-    <comp ref="Q39">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>71F983A2</tstamp>
-    </comp>
-    <comp ref="R50">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>71F9839C</tstamp>
-    </comp>
-    <comp ref="Q41">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>71F982F3</tstamp>
-    </comp>
-    <comp ref="U15">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>67D4E787</tstamp>
-    </comp>
-    <comp ref="U12">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>67D4E75B</tstamp>
-    </comp>
-    <comp ref="U11">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6633EE5E</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6633EE7C</tstamp>
-    </comp>
-    <comp ref="Q15">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6942D8A4</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>708AF4ED</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>708B124A</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>708F3A58</tstamp>
-    </comp>
-    <comp ref="R21">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>709361DA</tstamp>
-    </comp>
-    <comp ref="R25">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>70F3DC2E</tstamp>
-    </comp>
-    <comp ref="Q9">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6928B599</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>693ECEB7</tstamp>
-    </comp>
-    <comp ref="Q5">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>69324F55</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7097888F</tstamp>
-    </comp>
-    <comp ref="Q11">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6942D8AA</tstamp>
-    </comp>
-    <comp ref="R27">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>70BE484E</tstamp>
-    </comp>
-    <comp ref="Q17">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6946E749</tstamp>
-    </comp>
-    <comp ref="R33">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>70CAE54D</tstamp>
-    </comp>
-    <comp ref="Q13">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>69365032</tstamp>
-    </comp>
-    <comp ref="Q7">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6946E74F</tstamp>
-    </comp>
-    <comp ref="Q22">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72222282</tstamp>
-    </comp>
-    <comp ref="Q20">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72222331</tstamp>
-    </comp>
-    <comp ref="U7">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>654FB44F</tstamp>
-    </comp>
-    <comp ref="U10">
-      <value>74LS138</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
-      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>655346D1</tstamp>
-    </comp>
-    <comp ref="U9">
-      <value>74HC595</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
-      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>654500EA</tstamp>
-    </comp>
-    <comp ref="Q19">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>693ECEBD</tstamp>
-    </comp>
-    <comp ref="Q21">
-      <value>MPSA42</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
-      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>693A5D24</tstamp>
-    </comp>
-    <comp ref="R31">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72222325</tstamp>
-    </comp>
-    <comp ref="R51">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>72524C53</tstamp>
-    </comp>
-    <comp ref="R49">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>71F98396</tstamp>
-    </comp>
-    <comp ref="R30">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6F4150D4</tstamp>
-    </comp>
-    <comp ref="R32">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7222232B</tstamp>
-    </comp>
-    <comp ref="R29">
-      <value>47k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6F4122E4</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_SPST</value>
-      <footprint>Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>7F9A4694</tstamp>
     </comp>
     <comp ref="U3">
       <value>MAX1771CSA</value>
@@ -1107,13 +291,828 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>63E16B68</tstamp>
     </comp>
-    <comp ref="BT1">
-      <value>3V</value>
-      <footprint>Battery:BatteryHolder_Keystone_1058_1x2032</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+    <comp ref="Q2">
+      <value>IRFB4620</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <libsource lib="Nixie_Clock" part="IRFB4620" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>646603B2</tstamp>
+      <tstamp>63FF12BB</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>220uH</value>
+      <footprint>Inductor_THT:L_Radial_D7.0mm_P3.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D8F31B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>ES2J</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E25C25</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E5A426</tstamp>
+    </comp>
+    <comp ref="Q21">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>693A5D24</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>693ECEBD</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74HC595</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654500EA</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>655346D1</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654FB44F</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6946E74F</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69365032</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70CAE54D</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6946E749</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70BE484E</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6942D8AA</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7097888F</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69324F55</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>693ECEB7</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6928B599</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70F3DC2E</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>709361DA</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>708F3A58</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>708B124A</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>708AF4ED</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6942D8A4</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>71F98396</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67D4E75B</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67D4E787</tstamp>
+    </comp>
+    <comp ref="Q41">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>71F982F3</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>71F9839C</tstamp>
+    </comp>
+    <comp ref="Q39">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>71F983A2</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>74HC595</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654500FC</tstamp>
+    </comp>
+    <comp ref="Q27">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD5DD</tstamp>
+    </comp>
+    <comp ref="Q33">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD5E3</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD5F5</tstamp>
+    </comp>
+    <comp ref="Q37">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD5FB</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD601</tstamp>
+    </comp>
+    <comp ref="Q31">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD607</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD60D</tstamp>
+    </comp>
+    <comp ref="Q25">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD61C</tstamp>
+    </comp>
+    <comp ref="Q23">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD626</tstamp>
+    </comp>
+    <comp ref="Q29">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD630</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD63C</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD643</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD649</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD64F</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD655</tstamp>
+    </comp>
+    <comp ref="Q35">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>76AFD665</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6633EE7C</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7222232B</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72524C53</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72222325</tstamp>
+    </comp>
+    <comp ref="Q20">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72222331</tstamp>
+    </comp>
+    <comp ref="Q22">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72222282</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6633EE5E</tstamp>
+    </comp>
+    <comp ref="Q40">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72524C5F</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72524C59</tstamp>
+    </comp>
+    <comp ref="Q42">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72524BB0</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67E00712</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>74LS138</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67E006FF</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FB9E</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBA4</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBB6</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBBC</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBC2</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBC8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBCE</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBDD</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBE7</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBF1</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FBFD</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FC04</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FC0A</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FC10</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FC16</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7676FC26</tstamp>
+    </comp>
+    <comp ref="Q28">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDCB</tstamp>
+    </comp>
+    <comp ref="Q34">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDD1</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDE3</tstamp>
+    </comp>
+    <comp ref="Q38">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDE9</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDEF</tstamp>
+    </comp>
+    <comp ref="Q32">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDF5</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DDFB</tstamp>
+    </comp>
+    <comp ref="Q26">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE0A</tstamp>
+    </comp>
+    <comp ref="Q24">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE14</tstamp>
+    </comp>
+    <comp ref="Q30">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE1E</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE2A</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE31</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE37</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE3D</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE43</tstamp>
+    </comp>
+    <comp ref="Q36">
+      <value>MPSA42</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MPSA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7690DE53</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6F4150D4</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6F4122E4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63F5AA1A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>640799AB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6407A6C6</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641089B7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6457F916</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x10</value>
+      <footprint>Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>646A3363</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x10</value>
+      <footprint>Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>646A55E0</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x10</value>
+      <footprint>Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64734313</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x10</value>
+      <footprint>Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647C3394</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1203,7 +1202,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x02_Female">
+    <libpart lib="Connector_Generic" part="Conn_01x02">
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1211,14 +1210,14 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02_Female</field>
+        <field name="Value">Conn_01x02</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x03_Female">
+    <libpart lib="Connector_Generic" part="Conn_01x03">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1226,7 +1225,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x03_Female</field>
+        <field name="Value">Conn_01x03</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1234,7 +1233,7 @@
         <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x04_Female">
+    <libpart lib="Connector_Generic" part="Conn_01x04">
       <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1242,7 +1241,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04_Female</field>
+        <field name="Value">Conn_01x04</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1251,7 +1250,7 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x10_Female">
+    <libpart lib="Connector_Generic" part="Conn_01x10">
       <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1259,7 +1258,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x10_Female</field>
+        <field name="Value">Conn_01x10</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1502,19 +1501,18 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Nixie_Clock" part="IRFU4620">
-      <docs>https://www.infineon.com/dgdl/Infineon-IRFR4620-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356323ae920f7</docs>
+    <libpart lib="Nixie_Clock" part="IRFB4620">
       <footprints>
         <fp>DirectFET*MF*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">IRFU4620</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown</field>
+        <field name="Value">IRFB4620</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</field>
       </fields>
       <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="2" name="G" type="input"/>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
@@ -1522,7 +1520,6 @@
       <aliases>
         <alias>MAX1771ESA</alias>
       </aliases>
-      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1771.pdf</docs>
       <footprints>
         <fp>DIP*W7.62mm*</fp>
       </footprints>
@@ -1705,6 +1702,9 @@
     <library logical="Connector">
       <uri>/usr/share/kicad/library/Connector.lib</uri>
     </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
@@ -1737,923 +1737,923 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U11-Pad13)">
-      <node ref="U11" pin="13"/>
-    </net>
-    <net code="2" name="Net-(U11-Pad12)">
-      <node ref="U11" pin="12"/>
-    </net>
-    <net code="3" name="Net-(U11-Pad11)">
-      <node ref="U11" pin="11"/>
-    </net>
-    <net code="4" name="Net-(U11-Pad10)">
-      <node ref="U11" pin="10"/>
-    </net>
-    <net code="5" name="Net-(U11-Pad9)">
-      <node ref="U11" pin="9"/>
-    </net>
-    <net code="6" name="Net-(U11-Pad7)">
-      <node ref="U11" pin="7"/>
-    </net>
-    <net code="7" name="/595_0_P4">
-      <node ref="U8" pin="1"/>
-      <node ref="U11" pin="1"/>
-      <node ref="U9" pin="4"/>
-    </net>
-    <net code="8" name="Net-(Q9-Pad2)">
-      <node ref="R21" pin="1"/>
-      <node ref="Q9" pin="2"/>
-    </net>
-    <net code="9" name="Net-(Q5-Pad2)">
-      <node ref="R17" pin="1"/>
-      <node ref="Q5" pin="2"/>
-    </net>
-    <net code="10" name="+5V">
-      <node ref="U14" pin="16"/>
+    <net code="1" name="+5V">
+      <node ref="U7" pin="6"/>
+      <node ref="U11" pin="16"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U6" pin="3"/>
       <node ref="U12" pin="6"/>
       <node ref="U12" pin="16"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U14" pin="10"/>
-      <node ref="U6" pin="3"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="RV1" pin="2"/>
-      <node ref="U5" pin="8"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="U13" pin="16"/>
-      <node ref="U16" pin="16"/>
-      <node ref="U9" pin="10"/>
-      <node ref="U9" pin="16"/>
-      <node ref="U7" pin="6"/>
-      <node ref="U7" pin="16"/>
-      <node ref="U10" pin="16"/>
       <node ref="U15" pin="16"/>
+      <node ref="U10" pin="16"/>
+      <node ref="U7" pin="16"/>
+      <node ref="U14" pin="10"/>
+      <node ref="U14" pin="16"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U5" pin="8"/>
       <node ref="R7" pin="1"/>
-      <node ref="U4" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U13" pin="6"/>
-      <node ref="U11" pin="16"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U2" pin="4"/>
+      <node ref="R8" pin="1"/>
       <node ref="U8" pin="6"/>
       <node ref="U8" pin="16"/>
-      <node ref="U2" pin="8"/>
-      <node ref="R2" pin="2"/>
-      <node ref="RV1" pin="1"/>
       <node ref="U1" pin="3"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="U9" pin="10"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U13" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U16" pin="16"/>
+      <node ref="U13" pin="16"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C4" pin="1"/>
     </net>
-    <net code="11" name="/595_0_P7">
-      <node ref="U11" pin="6"/>
-      <node ref="U8" pin="4"/>
-      <node ref="U9" pin="7"/>
-      <node ref="U8" pin="5"/>
+    <net code="2" name="Net-(Q42-Pad2)">
+      <node ref="Q42" pin="2"/>
+      <node ref="R51" pin="1"/>
     </net>
-    <net code="12" name="/595_0_P6">
-      <node ref="U8" pin="3"/>
-      <node ref="U11" pin="3"/>
-      <node ref="U9" pin="6"/>
-    </net>
-    <net code="13" name="/595_0_P5">
-      <node ref="U9" pin="5"/>
-      <node ref="U8" pin="2"/>
-      <node ref="U11" pin="2"/>
-    </net>
-    <net code="14" name="Net-(Q22-Pad2)">
-      <node ref="R31" pin="2"/>
-      <node ref="Q22" pin="2"/>
-    </net>
-    <net code="15" name="Net-(R32-Pad1)">
-      <node ref="R32" pin="1"/>
+    <net code="3" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
       <node ref="U11" pin="15"/>
     </net>
-    <net code="16" name="Net-(R31-Pad1)">
-      <node ref="U11" pin="14"/>
-      <node ref="R31" pin="1"/>
-    </net>
-    <net code="17" name="Net-(Q20-Pad2)">
+    <net code="4" name="Net-(Q20-Pad2)">
+      <node ref="R32" pin="1"/>
       <node ref="Q20" pin="2"/>
-      <node ref="R32" pin="2"/>
     </net>
-    <net code="18" name="/138_1_P0">
-      <node ref="R18" pin="2"/>
-      <node ref="U8" pin="15"/>
+    <net code="5" name="Net-(Q29-Pad2)">
+      <node ref="R41" pin="1"/>
+      <node ref="Q29" pin="2"/>
     </net>
-    <net code="19" name="/138_1_P1">
-      <node ref="U8" pin="14"/>
+    <net code="6" name="Net-(Q23-Pad2)">
+      <node ref="R35" pin="1"/>
+      <node ref="Q23" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q25-Pad2)">
+      <node ref="Q25" pin="2"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q35-Pad2)">
+      <node ref="R47" pin="1"/>
+      <node ref="Q35" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q22-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="Q22" pin="2"/>
+    </net>
+    <net code="10" name="Net-(Q33-Pad2)">
+      <node ref="Q33" pin="2"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="11" name="/138_1_P1">
       <node ref="R16" pin="2"/>
+      <node ref="U8" pin="14"/>
     </net>
-    <net code="20" name="/138_1_P2">
-      <node ref="U8" pin="13"/>
+    <net code="12" name="NIXIE_1_P8">
+      <node ref="J8" pin="9"/>
+      <node ref="Q20" pin="3"/>
+    </net>
+    <net code="13" name="/138_1_P2">
       <node ref="R22" pin="2"/>
+      <node ref="U8" pin="13"/>
     </net>
-    <net code="21" name="/138_1_P3">
-      <node ref="R20" pin="2"/>
+    <net code="14" name="/138_1_P3">
       <node ref="U8" pin="12"/>
+      <node ref="R20" pin="2"/>
     </net>
-    <net code="22" name="/138_1_P4">
+    <net code="15" name="/138_1_P0">
+      <node ref="U8" pin="15"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="16" name="/138_1_P4">
       <node ref="U8" pin="11"/>
       <node ref="R26" pin="2"/>
     </net>
-    <net code="23" name="/138_1_P5">
+    <net code="17" name="/138_1_P5">
       <node ref="U8" pin="10"/>
       <node ref="R24" pin="2"/>
     </net>
-    <net code="24" name="/138_1_P6">
-      <node ref="U8" pin="9"/>
-      <node ref="R34" pin="2"/>
+    <net code="18" name="/138_3_P4">
+      <node ref="U13" pin="11"/>
+      <node ref="R46" pin="2"/>
     </net>
-    <net code="25" name="/138_1_P7">
-      <node ref="R28" pin="2"/>
-      <node ref="U8" pin="7"/>
+    <net code="19" name="/138_3_P5">
+      <node ref="U13" pin="10"/>
+      <node ref="R44" pin="2"/>
     </net>
-    <net code="26" name="Net-(Q15-Pad2)">
-      <node ref="Q15" pin="2"/>
-      <node ref="R27" pin="1"/>
+    <net code="20" name="Net-(U11-Pad13)">
+      <node ref="U11" pin="13"/>
     </net>
-    <net code="27" name="Net-(Q11-Pad2)">
-      <node ref="Q11" pin="2"/>
-      <node ref="R23" pin="1"/>
+    <net code="21" name="NIXIE_3_P0">
+      <node ref="J10" pin="1"/>
+      <node ref="Q26" pin="3"/>
     </net>
-    <net code="28" name="Net-(Q17-Pad2)">
-      <node ref="Q17" pin="2"/>
-      <node ref="R33" pin="1"/>
+    <net code="22" name="NIXIE_1_P9">
+      <node ref="J8" pin="10"/>
+      <node ref="Q22" pin="3"/>
     </net>
-    <net code="29" name="Net-(Q3-Pad2)">
-      <node ref="Q3" pin="2"/>
-      <node ref="R15" pin="1"/>
+    <net code="23" name="Net-(R31-Pad2)">
+      <node ref="U11" pin="14"/>
+      <node ref="R31" pin="2"/>
     </net>
-    <net code="30" name="Net-(Q7-Pad2)">
-      <node ref="Q7" pin="2"/>
-      <node ref="R19" pin="1"/>
+    <net code="24" name="NIXIE_1_P7">
+      <node ref="J8" pin="8"/>
+      <node ref="Q16" pin="3"/>
     </net>
-    <net code="31" name="Net-(Q13-Pad2)">
-      <node ref="R25" pin="1"/>
-      <node ref="Q13" pin="2"/>
+    <net code="25" name="NIXIE_1_P6">
+      <node ref="J8" pin="7"/>
+      <node ref="Q18" pin="3"/>
     </net>
-    <net code="32" name="Net-(Q39-Pad2)">
-      <node ref="Q39" pin="2"/>
-      <node ref="R50" pin="2"/>
+    <net code="26" name="NIXIE_1_P5">
+      <node ref="J8" pin="6"/>
+      <node ref="Q12" pin="3"/>
     </net>
-    <net code="33" name="Net-(R49-Pad1)">
-      <node ref="R49" pin="1"/>
-      <node ref="U15" pin="14"/>
+    <net code="27" name="NIXIE_1_P1">
+      <node ref="J8" pin="2"/>
+      <node ref="Q4" pin="3"/>
     </net>
-    <net code="34" name="Net-(R50-Pad1)">
-      <node ref="R50" pin="1"/>
-      <node ref="U15" pin="15"/>
+    <net code="28" name="NIXIE_1_P0">
+      <node ref="Q6" pin="3"/>
+      <node ref="J8" pin="1"/>
     </net>
-    <net code="35" name="Net-(Q41-Pad2)">
-      <node ref="Q41" pin="2"/>
-      <node ref="R49" pin="2"/>
+    <net code="29" name="NIXIE_3_P5">
+      <node ref="Q32" pin="3"/>
+      <node ref="J10" pin="6"/>
     </net>
-    <net code="36" name="NIXIE_2_P9">
-      <node ref="J9" pin="10"/>
-      <node ref="Q41" pin="3"/>
+    <net code="30" name="NIXIE_3_P7">
+      <node ref="J10" pin="8"/>
+      <node ref="Q36" pin="3"/>
     </net>
-    <net code="37" name="NIXIE_2_P8">
-      <node ref="J9" pin="9"/>
-      <node ref="Q39" pin="3"/>
+    <net code="31" name="NIXIE_3_P8">
+      <node ref="Q40" pin="3"/>
+      <node ref="J10" pin="9"/>
     </net>
-    <net code="38" name="/595_1_P5">
-      <node ref="U13" pin="2"/>
-      <node ref="U14" pin="5"/>
-      <node ref="U16" pin="2"/>
+    <net code="32" name="NIXIE_3_P9">
+      <node ref="Q42" pin="3"/>
+      <node ref="J10" pin="10"/>
     </net>
-    <net code="39" name="/595_1_P0">
-      <node ref="U14" pin="15"/>
-      <node ref="U15" pin="1"/>
-      <node ref="U12" pin="1"/>
+    <net code="33" name="NIXIE_3_P1">
+      <node ref="Q24" pin="3"/>
+      <node ref="J10" pin="2"/>
     </net>
-    <net code="40" name="/595_1_P2">
+    <net code="34" name="NIXIE_3_P2">
+      <node ref="J10" pin="3"/>
+      <node ref="Q30" pin="3"/>
+    </net>
+    <net code="35" name="NIXIE_3_P3">
+      <node ref="J10" pin="4"/>
+      <node ref="Q28" pin="3"/>
+    </net>
+    <net code="36" name="NIXIE_3_P4">
+      <node ref="Q34" pin="3"/>
+      <node ref="J10" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U15-Pad9)">
+      <node ref="U15" pin="9"/>
+    </net>
+    <net code="38" name="Net-(U15-Pad7)">
+      <node ref="U15" pin="7"/>
+    </net>
+    <net code="39" name="/138_2_P1">
+      <node ref="U12" pin="14"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="40" name="/138_2_P5">
+      <node ref="R43" pin="2"/>
+      <node ref="U12" pin="10"/>
+    </net>
+    <net code="41" name="/138_2_P4">
+      <node ref="U12" pin="11"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="42" name="/138_2_P3">
+      <node ref="R39" pin="2"/>
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="43" name="/138_2_P2">
+      <node ref="U12" pin="13"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U15-Pad13)">
+      <node ref="U15" pin="13"/>
+    </net>
+    <net code="45" name="/138_2_P0">
+      <node ref="U12" pin="15"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="46" name="Net-(U15-Pad12)">
+      <node ref="U15" pin="12"/>
+    </net>
+    <net code="47" name="/595_1_P2">
       <node ref="U12" pin="3"/>
       <node ref="U14" pin="2"/>
       <node ref="U15" pin="3"/>
     </net>
-    <net code="41" name="/138_2_P3">
-      <node ref="R39" pin="2"/>
-      <node ref="U12" pin="12"/>
-    </net>
-    <net code="42" name="Net-(U15-Pad13)">
-      <node ref="U15" pin="13"/>
-    </net>
-    <net code="43" name="Net-(U15-Pad12)">
-      <node ref="U15" pin="12"/>
-    </net>
-    <net code="44" name="/138_2_P0">
-      <node ref="R37" pin="2"/>
-      <node ref="U12" pin="15"/>
-    </net>
-    <net code="45" name="/138_2_P1">
-      <node ref="U12" pin="14"/>
-      <node ref="R35" pin="2"/>
-    </net>
-    <net code="46" name="/138_2_P2">
-      <node ref="R41" pin="2"/>
-      <node ref="U12" pin="13"/>
-    </net>
-    <net code="47" name="/138_2_P4">
-      <node ref="U12" pin="11"/>
-      <node ref="R45" pin="2"/>
-    </net>
-    <net code="48" name="/138_2_P5">
-      <node ref="R43" pin="2"/>
-      <node ref="U12" pin="10"/>
+    <net code="48" name="/595_1_P1">
+      <node ref="U15" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U14" pin="1"/>
     </net>
     <net code="49" name="/138_2_P6">
-      <node ref="R53" pin="2"/>
       <node ref="U12" pin="9"/>
+      <node ref="R53" pin="2"/>
     </net>
     <net code="50" name="/138_2_P7">
-      <node ref="R47" pin="2"/>
       <node ref="U12" pin="7"/>
+      <node ref="R47" pin="2"/>
     </net>
-    <net code="51" name="CLOCK_PIN">
+    <net code="51" name="/595_1_P3">
+      <node ref="U12" pin="4"/>
+      <node ref="U14" pin="3"/>
+      <node ref="U15" pin="6"/>
+    </net>
+    <net code="52" name="/595_1_P0">
+      <node ref="U14" pin="15"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U15-Pad11)">
+      <node ref="U15" pin="11"/>
+    </net>
+    <net code="54" name="Net-(U15-Pad10)">
+      <node ref="U15" pin="10"/>
+    </net>
+    <net code="55" name="CASCADE_PIN">
+      <node ref="U14" pin="14"/>
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="56" name="Net-(Q27-Pad2)">
+      <node ref="Q27" pin="2"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="57" name="CLOCK_PIN">
       <node ref="J3" pin="3"/>
       <node ref="U9" pin="11"/>
       <node ref="U14" pin="11"/>
     </net>
-    <net code="52" name="/595_1_P1">
-      <node ref="U14" pin="1"/>
-      <node ref="U15" pin="2"/>
-      <node ref="U12" pin="2"/>
-    </net>
-    <net code="53" name="Net-(U14-Pad9)">
+    <net code="58" name="Net-(U14-Pad9)">
       <node ref="U14" pin="9"/>
     </net>
-    <net code="54" name="CASCADE_PIN">
-      <node ref="U9" pin="9"/>
-      <node ref="U14" pin="14"/>
+    <net code="59" name="Net-(Q31-Pad2)">
+      <node ref="R43" pin="1"/>
+      <node ref="Q31" pin="2"/>
     </net>
-    <net code="55" name="LATCH_PIN">
+    <net code="60" name="Net-(Q37-Pad2)">
+      <node ref="Q37" pin="2"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="61" name="/595_1_P5">
+      <node ref="U13" pin="2"/>
+      <node ref="U14" pin="5"/>
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="62" name="Net-(Q39-Pad2)">
+      <node ref="R50" pin="1"/>
+      <node ref="Q39" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R50-Pad2)">
+      <node ref="R50" pin="2"/>
+      <node ref="U15" pin="15"/>
+    </net>
+    <net code="64" name="Net-(Q41-Pad2)">
+      <node ref="Q41" pin="2"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R49-Pad2)">
+      <node ref="U15" pin="14"/>
+      <node ref="R49" pin="2"/>
+    </net>
+    <net code="66" name="LATCH_PIN">
       <node ref="J3" pin="1"/>
       <node ref="U9" pin="12"/>
       <node ref="U14" pin="12"/>
     </net>
-    <net code="56" name="/595_1_P4">
-      <node ref="U16" pin="1"/>
-      <node ref="U14" pin="4"/>
-      <node ref="U13" pin="1"/>
+    <net code="67" name="Net-(U11-Pad12)">
+      <node ref="U11" pin="12"/>
     </net>
-    <net code="57" name="/595_1_P6">
-      <node ref="U13" pin="3"/>
-      <node ref="U16" pin="3"/>
-      <node ref="U14" pin="6"/>
-    </net>
-    <net code="58" name="/595_1_P7">
-      <node ref="U13" pin="5"/>
-      <node ref="U13" pin="4"/>
+    <net code="68" name="/595_1_P7">
       <node ref="U14" pin="7"/>
       <node ref="U16" pin="6"/>
+      <node ref="U13" pin="4"/>
     </net>
-    <net code="59" name="Net-(U15-Pad11)">
-      <node ref="U15" pin="11"/>
+    <net code="69" name="/595_1_P6">
+      <node ref="U16" pin="3"/>
+      <node ref="U14" pin="6"/>
+      <node ref="U13" pin="3"/>
     </net>
-    <net code="60" name="Net-(U15-Pad10)">
-      <node ref="U15" pin="10"/>
+    <net code="70" name="/595_1_P4">
+      <node ref="U14" pin="4"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U16" pin="1"/>
     </net>
-    <net code="61" name="/595_1_P3">
-      <node ref="U15" pin="6"/>
-      <node ref="U14" pin="3"/>
-      <node ref="U12" pin="5"/>
-      <node ref="U12" pin="4"/>
+    <net code="71" name="/138_3_P7">
+      <node ref="U13" pin="7"/>
+      <node ref="R48" pin="2"/>
     </net>
-    <net code="62" name="Net-(U15-Pad7)">
-      <node ref="U15" pin="7"/>
+    <net code="72" name="Net-(Q36-Pad2)">
+      <node ref="R48" pin="1"/>
+      <node ref="Q36" pin="2"/>
     </net>
-    <net code="63" name="Net-(U15-Pad9)">
-      <node ref="U15" pin="9"/>
-    </net>
-    <net code="64" name="NIXIE_3_P0">
-      <node ref="Q26" pin="3"/>
-      <node ref="J10" pin="1"/>
-    </net>
-    <net code="65" name="NIXIE_1_P9">
-      <node ref="Q22" pin="3"/>
-      <node ref="J8" pin="10"/>
-    </net>
-    <net code="66" name="NIXIE_1_P8">
-      <node ref="Q20" pin="3"/>
-      <node ref="J8" pin="9"/>
-    </net>
-    <net code="67" name="NIXIE_3_P7">
-      <node ref="J10" pin="8"/>
-      <node ref="Q36" pin="3"/>
-    </net>
-    <net code="68" name="NIXIE_3_P2">
-      <node ref="Q30" pin="3"/>
-      <node ref="J10" pin="3"/>
-    </net>
-    <net code="69" name="NIXIE_1_P0">
-      <node ref="J8" pin="8"/>
-      <node ref="Q6" pin="3"/>
-    </net>
-    <net code="70" name="NIXIE_1_P7">
-      <node ref="J8" pin="1"/>
-      <node ref="Q16" pin="3"/>
-    </net>
-    <net code="71" name="NIXIE_0_P9">
-      <node ref="Q21" pin="3"/>
-      <node ref="J7" pin="10"/>
-    </net>
-    <net code="72" name="NIXIE_2_P7">
-      <node ref="J9" pin="8"/>
-      <node ref="Q35" pin="3"/>
-    </net>
-    <net code="73" name="NIXIE_0_P1">
-      <node ref="J7" pin="2"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="74" name="NIXIE_0_P0">
-      <node ref="J7" pin="1"/>
-      <node ref="Q5" pin="3"/>
-    </net>
-    <net code="75" name="NIXIE_0_P7">
-      <node ref="Q15" pin="3"/>
-      <node ref="J7" pin="8"/>
-    </net>
-    <net code="76" name="NIXIE_0_P6">
-      <node ref="J7" pin="7"/>
-      <node ref="Q17" pin="3"/>
-    </net>
-    <net code="77" name="NIXIE_0_P5">
-      <node ref="Q11" pin="3"/>
-      <node ref="J7" pin="6"/>
-    </net>
-    <net code="78" name="NIXIE_0_P4">
-      <node ref="Q13" pin="3"/>
-      <node ref="J7" pin="5"/>
-    </net>
-    <net code="79" name="NIXIE_0_P3">
-      <node ref="J7" pin="4"/>
-      <node ref="Q7" pin="3"/>
-    </net>
-    <net code="80" name="NIXIE_0_P2">
-      <node ref="Q9" pin="3"/>
-      <node ref="J7" pin="3"/>
-    </net>
-    <net code="81" name="NIXIE_2_P0">
-      <node ref="J9" pin="1"/>
-      <node ref="Q25" pin="3"/>
-    </net>
-    <net code="82" name="NIXIE_3_P9">
-      <node ref="Q42" pin="3"/>
-      <node ref="J10" pin="10"/>
-    </net>
-    <net code="83" name="NIXIE_3_P8">
-      <node ref="Q40" pin="3"/>
-      <node ref="J10" pin="9"/>
-    </net>
-    <net code="84" name="NIXIE_2_P4">
-      <node ref="Q33" pin="3"/>
-      <node ref="J9" pin="5"/>
-    </net>
-    <net code="85" name="NIXIE_3_P6">
+    <net code="73" name="NIXIE_3_P6">
       <node ref="J10" pin="7"/>
       <node ref="Q38" pin="3"/>
     </net>
-    <net code="86" name="NIXIE_2_P2">
-      <node ref="J9" pin="3"/>
-      <node ref="Q29" pin="3"/>
-    </net>
-    <net code="87" name="NIXIE_1_P4">
-      <node ref="Q14" pin="3"/>
-      <node ref="J8" pin="4"/>
-    </net>
-    <net code="88" name="Net-(Q19-Pad2)">
-      <node ref="R30" pin="2"/>
-      <node ref="Q19" pin="2"/>
-    </net>
-    <net code="89" name="Net-(Q21-Pad2)">
-      <node ref="R29" pin="2"/>
-      <node ref="Q21" pin="2"/>
-    </net>
-    <net code="90" name="NIXIE_0_P8">
-      <node ref="Q19" pin="3"/>
-      <node ref="J7" pin="9"/>
-    </net>
-    <net code="91" name="Net-(R29-Pad1)">
-      <node ref="R29" pin="1"/>
-      <node ref="U10" pin="14"/>
-    </net>
-    <net code="92" name="Net-(R30-Pad1)">
-      <node ref="R30" pin="1"/>
-      <node ref="U10" pin="15"/>
-    </net>
-    <net code="93" name="Net-(R51-Pad1)">
-      <node ref="R51" pin="1"/>
-      <node ref="U16" pin="14"/>
-    </net>
-    <net code="94" name="Net-(J4-Pad1)">
-      <node ref="SW1" pin="2"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="95" name="Net-(Q2-Pad2)">
-      <node ref="U3" pin="1"/>
-      <node ref="Q2" pin="2"/>
-    </net>
-    <net code="96" name="NIXIE_1_P3">
-      <node ref="J8" pin="5"/>
-      <node ref="Q8" pin="3"/>
-    </net>
-    <net code="97" name="/138_0_P6">
-      <node ref="U7" pin="9"/>
-      <node ref="R33" pin="2"/>
-    </net>
-    <net code="98" name="/138_0_P5">
-      <node ref="R23" pin="2"/>
-      <node ref="U7" pin="10"/>
-    </net>
-    <net code="99" name="/138_0_P4">
-      <node ref="R25" pin="2"/>
-      <node ref="U7" pin="11"/>
-    </net>
-    <net code="100" name="/138_0_P3">
-      <node ref="U7" pin="12"/>
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="101" name="/138_0_P2">
-      <node ref="U7" pin="13"/>
-      <node ref="R21" pin="2"/>
-    </net>
-    <net code="102" name="/138_0_P1">
-      <node ref="U7" pin="14"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="103" name="/138_0_P0">
-      <node ref="U7" pin="15"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="104" name="/138_0_P7">
-      <node ref="R27" pin="2"/>
-      <node ref="U7" pin="7"/>
-    </net>
-    <net code="105" name="Net-(U10-Pad9)">
-      <node ref="U10" pin="9"/>
-    </net>
-    <net code="106" name="Net-(U10-Pad7)">
-      <node ref="U10" pin="7"/>
-    </net>
-    <net code="107" name="Net-(U10-Pad12)">
-      <node ref="U10" pin="12"/>
-    </net>
-    <net code="108" name="Net-(U10-Pad13)">
-      <node ref="U10" pin="13"/>
-    </net>
-    <net code="109" name="Net-(U10-Pad11)">
-      <node ref="U10" pin="11"/>
-    </net>
-    <net code="110" name="Net-(U10-Pad10)">
-      <node ref="U10" pin="10"/>
-    </net>
-    <net code="111" name="/595_0_P1">
-      <node ref="U9" pin="1"/>
-      <node ref="U10" pin="2"/>
-      <node ref="U7" pin="2"/>
-    </net>
-    <net code="112" name="/595_0_P2">
-      <node ref="U10" pin="3"/>
-      <node ref="U7" pin="3"/>
-      <node ref="U9" pin="2"/>
-    </net>
-    <net code="113" name="/595_0_P3">
-      <node ref="U9" pin="3"/>
-      <node ref="U7" pin="5"/>
-      <node ref="U10" pin="6"/>
-      <node ref="U7" pin="4"/>
-    </net>
-    <net code="114" name="/138_3_P6">
-      <node ref="R54" pin="2"/>
+    <net code="74" name="/138_3_P6">
       <node ref="U13" pin="9"/>
+      <node ref="R54" pin="2"/>
     </net>
-    <net code="115" name="/138_3_P1">
-      <node ref="U13" pin="14"/>
-      <node ref="R36" pin="2"/>
+    <net code="75" name="Net-(Q38-Pad2)">
+      <node ref="R54" pin="1"/>
+      <node ref="Q38" pin="2"/>
     </net>
-    <net code="116" name="/138_3_P0">
-      <node ref="R38" pin="2"/>
-      <node ref="U13" pin="15"/>
+    <net code="76" name="Net-(Q34-Pad2)">
+      <node ref="R46" pin="1"/>
+      <node ref="Q34" pin="2"/>
     </net>
-    <net code="117" name="/138_3_P3">
-      <node ref="R40" pin="2"/>
-      <node ref="U13" pin="12"/>
+    <net code="77" name="Net-(Q28-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="Q28" pin="2"/>
     </net>
-    <net code="118" name="NIXIE_1_P2">
-      <node ref="Q10" pin="3"/>
-      <node ref="J8" pin="6"/>
+    <net code="78" name="Net-(Q32-Pad2)">
+      <node ref="R44" pin="1"/>
+      <node ref="Q32" pin="2"/>
     </net>
-    <net code="119" name="/595_0_P0">
-      <node ref="U9" pin="15"/>
-      <node ref="U7" pin="1"/>
-      <node ref="U10" pin="1"/>
+    <net code="79" name="Net-(Q24-Pad2)">
+      <node ref="Q24" pin="2"/>
+      <node ref="R36" pin="1"/>
     </net>
-    <net code="120" name="DATA_PIN">
-      <node ref="J3" pin="2"/>
-      <node ref="U9" pin="14"/>
+    <net code="80" name="Net-(Q26-Pad2)">
+      <node ref="Q26" pin="2"/>
+      <node ref="R38" pin="1"/>
     </net>
-    <net code="121" name="I2C_SDA">
-      <node ref="U4" pin="15"/>
-      <node ref="R7" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="U5" pin="5"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="122" name="I2C_SCL">
-      <node ref="R9" pin="2"/>
-      <node ref="U5" pin="6"/>
-      <node ref="J6" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="U4" pin="16"/>
-    </net>
-    <net code="123" name="BLUE_PIN">
-      <node ref="J2" pin="3"/>
-      <node ref="D3" pin="4"/>
-    </net>
-    <net code="124" name="GREEN_PIN">
-      <node ref="D3" pin="3"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="125" name="CONSTANT_PIN">
-      <node ref="R4" pin="1"/>
-      <node ref="R3" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="126" name="TIMER_PIN">
-      <node ref="U2" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="127" name="BOOST_OUT">
-      <node ref="J5" pin="3"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="128" name="+12V">
-      <node ref="C5" pin="1"/>
-      <node ref="J5" pin="2"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="129" name="RED_PIN">
-      <node ref="D3" pin="1"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="130" name="Net-(D3-Pad2)">
-      <node ref="R13" pin="1"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="131" name="Net-(U4-Pad4)">
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="132" name="Net-(U4-Pad3)">
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="133" name="Net-(U4-Pad1)">
-      <node ref="U4" pin="1"/>
-    </net>
-    <net code="134" name="Net-(BT1-Pad1)">
-      <node ref="BT1" pin="1"/>
-      <node ref="U4" pin="14"/>
-    </net>
-    <net code="135" name="IR_OUT">
-      <node ref="J6" pin="3"/>
-      <node ref="U6" pin="1"/>
-    </net>
-    <net code="136" name="SHDN_PIN">
-      <node ref="U3" pin="4"/>
-      <node ref="R1" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="137" name="Net-(D1-Pad2)">
-      <node ref="U2" pin="3"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="138" name="Net-(C3-Pad1)">
-      <node ref="U2" pin="6"/>
-      <node ref="U2" pin="7"/>
-      <node ref="RV1" pin="3"/>
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="139" name="Net-(U2-Pad5)">
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="140" name="Net-(Q2-Pad3)">
-      <node ref="U3" pin="8"/>
-      <node ref="R14" pin="1"/>
-      <node ref="Q2" pin="3"/>
-    </net>
-    <net code="141" name="Net-(C7-Pad1)">
-      <node ref="R6" pin="1"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="142" name="Net-(C8-Pad1)">
-      <node ref="U3" pin="5"/>
-      <node ref="C8" pin="1"/>
-    </net>
-    <net code="143" name="Net-(R12-Pad1)">
-      <node ref="U3" pin="3"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="144" name="Net-(C6-Pad1)">
-      <node ref="D2" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="L1" pin="2"/>
-    </net>
-    <net code="145" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="146" name="Net-(Q18-Pad2)">
-      <node ref="Q18" pin="2"/>
-      <node ref="R34" pin="1"/>
-    </net>
-    <net code="147" name="Net-(Q12-Pad2)">
-      <node ref="R24" pin="1"/>
-      <node ref="Q12" pin="2"/>
-    </net>
-    <net code="148" name="Net-(Q8-Pad2)">
-      <node ref="R20" pin="1"/>
-      <node ref="Q8" pin="2"/>
-    </net>
-    <net code="149" name="Net-(Q14-Pad2)">
-      <node ref="R26" pin="1"/>
-      <node ref="Q14" pin="2"/>
-    </net>
-    <net code="150" name="NIXIE_1_P6">
-      <node ref="J8" pin="2"/>
-      <node ref="Q18" pin="3"/>
-    </net>
-    <net code="151" name="NIXIE_1_P5">
-      <node ref="J8" pin="3"/>
-      <node ref="Q12" pin="3"/>
-    </net>
-    <net code="152" name="Net-(U16-Pad13)">
-      <node ref="U16" pin="13"/>
-    </net>
-    <net code="153" name="Net-(U16-Pad12)">
-      <node ref="U16" pin="12"/>
-    </net>
-    <net code="154" name="Net-(U16-Pad11)">
-      <node ref="U16" pin="11"/>
-    </net>
-    <net code="155" name="Net-(U16-Pad10)">
-      <node ref="U16" pin="10"/>
-    </net>
-    <net code="156" name="Net-(Q6-Pad2)">
-      <node ref="Q6" pin="2"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="157" name="Net-(Q16-Pad2)">
-      <node ref="R28" pin="1"/>
-      <node ref="Q16" pin="2"/>
-    </net>
-    <net code="158" name="NIXIE_1_P1">
-      <node ref="J8" pin="7"/>
-      <node ref="Q4" pin="3"/>
-    </net>
-    <net code="159" name="Net-(Q4-Pad2)">
+    <net code="81" name="Net-(Q4-Pad2)">
       <node ref="R16" pin="1"/>
       <node ref="Q4" pin="2"/>
     </net>
-    <net code="160" name="Net-(Q10-Pad2)">
+    <net code="82" name="Net-(Q10-Pad2)">
       <node ref="Q10" pin="2"/>
       <node ref="R22" pin="1"/>
     </net>
-    <net code="161" name="GND">
-      <node ref="Q18" pin="1"/>
-      <node ref="Q12" pin="1"/>
-      <node ref="Q30" pin="1"/>
-      <node ref="Q37" pin="1"/>
-      <node ref="Q31" pin="1"/>
-      <node ref="Q10" pin="1"/>
-      <node ref="Q25" pin="1"/>
-      <node ref="Q4" pin="1"/>
-      <node ref="Q6" pin="1"/>
-      <node ref="Q35" pin="1"/>
-      <node ref="U16" pin="8"/>
-      <node ref="U16" pin="5"/>
-      <node ref="U16" pin="4"/>
-      <node ref="Q42" pin="1"/>
-      <node ref="Q40" pin="1"/>
-      <node ref="U13" pin="8"/>
-      <node ref="Q23" pin="1"/>
-      <node ref="Q29" pin="1"/>
-      <node ref="Q28" pin="1"/>
-      <node ref="Q34" pin="1"/>
-      <node ref="Q8" pin="1"/>
-      <node ref="Q38" pin="1"/>
-      <node ref="Q27" pin="1"/>
-      <node ref="Q36" pin="1"/>
-      <node ref="Q33" pin="1"/>
-      <node ref="Q16" pin="1"/>
-      <node ref="Q32" pin="1"/>
-      <node ref="Q26" pin="1"/>
-      <node ref="Q24" pin="1"/>
-      <node ref="U15" pin="8"/>
-      <node ref="U15" pin="5"/>
-      <node ref="U15" pin="4"/>
-      <node ref="Q21" pin="1"/>
-      <node ref="Q19" pin="1"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U14" pin="13"/>
-      <node ref="U12" pin="8"/>
-      <node ref="U3" pin="7"/>
-      <node ref="U7" pin="8"/>
+    <net code="83" name="NIXIE_1_P2">
+      <node ref="J8" pin="3"/>
+      <node ref="Q10" pin="3"/>
+    </net>
+    <net code="84" name="Net-(Q6-Pad2)">
+      <node ref="R18" pin="1"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="85" name="Net-(Q16-Pad2)">
+      <node ref="Q16" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="86" name="NIXIE_0_P8">
+      <node ref="J7" pin="9"/>
+      <node ref="Q19" pin="3"/>
+    </net>
+    <net code="87" name="NIXIE_0_P7">
+      <node ref="J7" pin="8"/>
+      <node ref="Q15" pin="3"/>
+    </net>
+    <net code="88" name="NIXIE_0_P6">
+      <node ref="Q17" pin="3"/>
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="89" name="NIXIE_0_P5">
+      <node ref="J7" pin="6"/>
+      <node ref="Q11" pin="3"/>
+    </net>
+    <net code="90" name="NIXIE_0_P4">
+      <node ref="J7" pin="5"/>
+      <node ref="Q13" pin="3"/>
+    </net>
+    <net code="91" name="NIXIE_0_P3">
+      <node ref="Q7" pin="3"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="92" name="NIXIE_0_P2">
+      <node ref="J7" pin="3"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="93" name="NIXIE_0_P1">
+      <node ref="Q3" pin="3"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="94" name="NIXIE_0_P9">
+      <node ref="J7" pin="10"/>
+      <node ref="Q21" pin="3"/>
+    </net>
+    <net code="95" name="NIXIE_0_P0">
+      <node ref="Q5" pin="3"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="96" name="/138_3_P1">
+      <node ref="U13" pin="14"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="97" name="/138_3_P0">
+      <node ref="R38" pin="2"/>
+      <node ref="U13" pin="15"/>
+    </net>
+    <net code="98" name="/138_3_P3">
+      <node ref="U13" pin="12"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="99" name="/138_3_P2">
+      <node ref="U13" pin="13"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="100" name="Net-(Q30-Pad2)">
+      <node ref="Q30" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="101" name="Net-(Q40-Pad2)">
+      <node ref="R52" pin="1"/>
+      <node ref="Q40" pin="2"/>
+    </net>
+    <net code="102" name="Net-(R51-Pad2)">
+      <node ref="U16" pin="14"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="103" name="Net-(R52-Pad2)">
+      <node ref="U16" pin="15"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="104" name="Net-(U16-Pad13)">
+      <node ref="U16" pin="13"/>
+    </net>
+    <net code="105" name="Net-(U16-Pad12)">
+      <node ref="U16" pin="12"/>
+    </net>
+    <net code="106" name="Net-(U11-Pad10)">
+      <node ref="U11" pin="10"/>
+    </net>
+    <net code="107" name="Net-(U11-Pad7)">
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="108" name="Net-(U11-Pad9)">
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="109" name="Net-(U11-Pad11)">
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="110" name="/595_0_P4">
+      <node ref="U9" pin="4"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="111" name="/595_0_P5">
+      <node ref="U8" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="112" name="/595_0_P6">
+      <node ref="U11" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="113" name="/595_0_P7">
+      <node ref="U9" pin="7"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="114" name="GND">
       <node ref="U9" pin="13"/>
-      <node ref="U9" pin="8"/>
-      <node ref="U10" pin="5"/>
-      <node ref="U10" pin="8"/>
-      <node ref="U14" pin="8"/>
-      <node ref="U10" pin="4"/>
-      <node ref="U11" pin="8"/>
-      <node ref="U11" pin="5"/>
-      <node ref="U11" pin="4"/>
-      <node ref="U8" pin="8"/>
-      <node ref="Q20" pin="1"/>
-      <node ref="Q22" pin="1"/>
-      <node ref="Q9" pin="1"/>
-      <node ref="Q15" pin="1"/>
-      <node ref="Q41" pin="1"/>
-      <node ref="Q39" pin="1"/>
-      <node ref="Q17" pin="1"/>
-      <node ref="Q11" pin="1"/>
-      <node ref="Q5" pin="1"/>
-      <node ref="Q14" pin="1"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="Q7" pin="1"/>
-      <node ref="Q13" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U6" pin="2"/>
-      <node ref="U5" pin="4"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C7" pin="2"/>
       <node ref="C3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="Q1" pin="1"/>
       <node ref="U4" pin="5"/>
-      <node ref="R13" pin="2"/>
-      <node ref="U5" pin="3"/>
       <node ref="U4" pin="10"/>
       <node ref="U4" pin="8"/>
       <node ref="U4" pin="7"/>
       <node ref="U4" pin="6"/>
-      <node ref="Q1" pin="1"/>
       <node ref="U4" pin="13"/>
       <node ref="U4" pin="12"/>
       <node ref="U4" pin="11"/>
       <node ref="U4" pin="9"/>
-      <node ref="U5" pin="7"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U2" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="J5" pin="4"/>
-      <node ref="R11" pin="2"/>
+      <node ref="Q15" pin="1"/>
       <node ref="C4" pin="2"/>
-      <node ref="U5" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U10" pin="8"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="Q21" pin="1"/>
+      <node ref="Q19" pin="1"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="Q17" pin="1"/>
+      <node ref="Q11" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J5" pin="4"/>
+      <node ref="Q29" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q16" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U16" pin="5"/>
+      <node ref="Q14" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="U16" pin="8"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U16" pin="4"/>
+      <node ref="Q12" pin="1"/>
+      <node ref="Q18" pin="1"/>
+      <node ref="Q36" pin="1"/>
+      <node ref="Q42" pin="1"/>
+      <node ref="Q40" pin="1"/>
+      <node ref="U11" pin="8"/>
+      <node ref="U11" pin="5"/>
+      <node ref="Q33" pin="1"/>
+      <node ref="U14" pin="8"/>
+      <node ref="Q31" pin="1"/>
+      <node ref="Q20" pin="1"/>
+      <node ref="Q37" pin="1"/>
+      <node ref="Q27" pin="1"/>
+      <node ref="Q39" pin="1"/>
+      <node ref="U15" pin="8"/>
+      <node ref="U15" pin="5"/>
+      <node ref="U15" pin="4"/>
+      <node ref="U12" pin="8"/>
+      <node ref="U12" pin="5"/>
+      <node ref="Q22" pin="1"/>
+      <node ref="Q35" pin="1"/>
+      <node ref="Q24" pin="1"/>
+      <node ref="Q30" pin="1"/>
+      <node ref="Q25" pin="1"/>
+      <node ref="Q23" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="Q41" pin="1"/>
+      <node ref="U14" pin="13"/>
+      <node ref="Q38" pin="1"/>
+      <node ref="Q32" pin="1"/>
+      <node ref="Q34" pin="1"/>
+      <node ref="Q28" pin="1"/>
+      <node ref="Q26" pin="1"/>
+      <node ref="U5" pin="4"/>
       <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U13" pin="5"/>
+      <node ref="U13" pin="8"/>
+      <node ref="U5" pin="7"/>
     </net>
-    <net code="162" name="Net-(Q40-Pad2)">
-      <node ref="Q40" pin="2"/>
-      <node ref="R52" pin="2"/>
+    <net code="115" name="NIXIE_1_P4">
+      <node ref="Q14" pin="3"/>
+      <node ref="J8" pin="5"/>
     </net>
-    <net code="163" name="Net-(R52-Pad1)">
-      <node ref="U16" pin="15"/>
-      <node ref="R52" pin="1"/>
+    <net code="116" name="Net-(Q14-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="Q14" pin="2"/>
     </net>
-    <net code="164" name="Net-(Q42-Pad2)">
-      <node ref="Q42" pin="2"/>
-      <node ref="R51" pin="2"/>
+    <net code="117" name="NIXIE_1_P3">
+      <node ref="J8" pin="4"/>
+      <node ref="Q8" pin="3"/>
     </net>
-    <net code="165" name="Net-(U16-Pad9)">
+    <net code="118" name="Net-(Q8-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="119" name="Net-(U16-Pad9)">
       <node ref="U16" pin="9"/>
     </net>
-    <net code="166" name="Net-(U16-Pad7)">
+    <net code="120" name="Net-(U16-Pad7)">
       <node ref="U16" pin="7"/>
     </net>
-    <net code="167" name="Net-(Q29-Pad2)">
-      <node ref="R41" pin="1"/>
-      <node ref="Q29" pin="2"/>
+    <net code="121" name="/138_1_P6">
+      <node ref="U8" pin="9"/>
+      <node ref="R34" pin="2"/>
     </net>
-    <net code="168" name="NIXIE_2_P1">
-      <node ref="Q23" pin="3"/>
-      <node ref="J9" pin="2"/>
+    <net code="122" name="Net-(Q12-Pad2)">
+      <node ref="Q12" pin="2"/>
+      <node ref="R24" pin="1"/>
     </net>
-    <net code="169" name="Net-(Q23-Pad2)">
-      <node ref="R35" pin="1"/>
-      <node ref="Q23" pin="2"/>
+    <net code="123" name="/138_1_P7">
+      <node ref="R28" pin="2"/>
+      <node ref="U8" pin="7"/>
     </net>
-    <net code="170" name="Net-(Q33-Pad2)">
-      <node ref="R45" pin="1"/>
-      <node ref="Q33" pin="2"/>
+    <net code="124" name="Net-(Q18-Pad2)">
+      <node ref="Q18" pin="2"/>
+      <node ref="R34" pin="1"/>
     </net>
-    <net code="171" name="Net-(Q25-Pad2)">
-      <node ref="R37" pin="1"/>
-      <node ref="Q25" pin="2"/>
+    <net code="125" name="Net-(U16-Pad10)">
+      <node ref="U16" pin="10"/>
     </net>
-    <net code="172" name="NIXIE_2_P6">
+    <net code="126" name="Net-(U16-Pad11)">
+      <node ref="U16" pin="11"/>
+    </net>
+    <net code="127" name="NIXIE_2_P9">
+      <node ref="Q41" pin="3"/>
+      <node ref="J9" pin="10"/>
+    </net>
+    <net code="128" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="129" name="NIXIE_2_P8">
+      <node ref="J9" pin="9"/>
+      <node ref="Q39" pin="3"/>
+    </net>
+    <net code="130" name="NIXIE_2_P7">
+      <node ref="J9" pin="8"/>
+      <node ref="Q35" pin="3"/>
+    </net>
+    <net code="131" name="NIXIE_2_P6">
       <node ref="J9" pin="7"/>
       <node ref="Q37" pin="3"/>
     </net>
-    <net code="173" name="Net-(Q37-Pad2)">
-      <node ref="R53" pin="1"/>
-      <node ref="Q37" pin="2"/>
-    </net>
-    <net code="174" name="Net-(Q35-Pad2)">
-      <node ref="Q35" pin="2"/>
-      <node ref="R47" pin="1"/>
-    </net>
-    <net code="175" name="NIXIE_2_P5">
+    <net code="132" name="NIXIE_2_P5">
       <node ref="Q31" pin="3"/>
       <node ref="J9" pin="6"/>
     </net>
-    <net code="176" name="Net-(Q31-Pad2)">
-      <node ref="R43" pin="1"/>
-      <node ref="Q31" pin="2"/>
+    <net code="133" name="NIXIE_2_P4">
+      <node ref="J9" pin="5"/>
+      <node ref="Q33" pin="3"/>
     </net>
-    <net code="177" name="Net-(Q26-Pad2)">
-      <node ref="Q26" pin="2"/>
-      <node ref="R38" pin="1"/>
-    </net>
-    <net code="178" name="Net-(Q36-Pad2)">
-      <node ref="Q36" pin="2"/>
-      <node ref="R48" pin="1"/>
-    </net>
-    <net code="179" name="NIXIE_3_P5">
-      <node ref="J10" pin="6"/>
-      <node ref="Q32" pin="3"/>
-    </net>
-    <net code="180" name="/138_3_P5">
-      <node ref="U13" pin="10"/>
-      <node ref="R44" pin="2"/>
-    </net>
-    <net code="181" name="Net-(Q32-Pad2)">
-      <node ref="R44" pin="1"/>
-      <node ref="Q32" pin="2"/>
-    </net>
-    <net code="182" name="/138_3_P7">
-      <node ref="U13" pin="7"/>
-      <node ref="R48" pin="2"/>
-    </net>
-    <net code="183" name="NIXIE_3_P1">
-      <node ref="Q24" pin="3"/>
-      <node ref="J10" pin="2"/>
-    </net>
-    <net code="184" name="Net-(Q24-Pad2)">
-      <node ref="Q24" pin="2"/>
-      <node ref="R36" pin="1"/>
-    </net>
-    <net code="185" name="NIXIE_3_P3">
-      <node ref="J10" pin="4"/>
-      <node ref="Q28" pin="3"/>
-    </net>
-    <net code="186" name="Net-(Q28-Pad2)">
-      <node ref="R40" pin="1"/>
-      <node ref="Q28" pin="2"/>
-    </net>
-    <net code="187" name="NIXIE_3_P4">
-      <node ref="J10" pin="5"/>
-      <node ref="Q34" pin="3"/>
-    </net>
-    <net code="188" name="Net-(Q34-Pad2)">
-      <node ref="R46" pin="1"/>
-      <node ref="Q34" pin="2"/>
-    </net>
-    <net code="189" name="Net-(Q38-Pad2)">
-      <node ref="R54" pin="1"/>
-      <node ref="Q38" pin="2"/>
-    </net>
-    <net code="190" name="NIXIE_2_P3">
+    <net code="134" name="NIXIE_2_P3">
       <node ref="J9" pin="4"/>
       <node ref="Q27" pin="3"/>
     </net>
-    <net code="191" name="Net-(Q27-Pad2)">
-      <node ref="Q27" pin="2"/>
-      <node ref="R39" pin="1"/>
+    <net code="135" name="NIXIE_2_P2">
+      <node ref="J9" pin="3"/>
+      <node ref="Q29" pin="3"/>
     </net>
-    <net code="192" name="/138_3_P2">
-      <node ref="U13" pin="13"/>
-      <node ref="R42" pin="2"/>
+    <net code="136" name="NIXIE_2_P1">
+      <node ref="Q23" pin="3"/>
+      <node ref="J9" pin="2"/>
     </net>
-    <net code="193" name="Net-(Q30-Pad2)">
-      <node ref="Q30" pin="2"/>
-      <node ref="R42" pin="1"/>
+    <net code="137" name="NIXIE_2_P0">
+      <node ref="Q25" pin="3"/>
+      <node ref="J9" pin="1"/>
     </net>
-    <net code="194" name="/138_3_P4">
-      <node ref="U13" pin="11"/>
-      <node ref="R46" pin="2"/>
+    <net code="138" name="I2C_SDA">
+      <node ref="J6" pin="2"/>
+      <node ref="U4" pin="15"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="139" name="I2C_SCL">
+      <node ref="U5" pin="6"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="140" name="IR_OUT">
+      <node ref="U6" pin="1"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="141" name="CONSTANT_PIN">
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="142" name="Net-(R12-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="143" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="144" name="SHDN_PIN">
+      <node ref="U3" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="145" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="146" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="147" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="148" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="149" name="Net-(C3-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="150" name="Net-(Q1-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="151" name="TIMER_PIN">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="152" name="+12V">
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="153" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="154" name="Net-(D1-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="155" name="BLUE_PIN">
+      <node ref="J2" pin="3"/>
+      <node ref="D3" pin="4"/>
+    </net>
+    <net code="156" name="GREEN_PIN">
+      <node ref="D3" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="157" name="RED_PIN">
+      <node ref="D3" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="158" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="159" name="DATA_PIN">
+      <node ref="U9" pin="14"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="160" name="Net-(Q13-Pad2)">
+      <node ref="Q13" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="161" name="Net-(Q17-Pad2)">
+      <node ref="Q17" pin="2"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="162" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="163" name="Net-(Q11-Pad2)">
+      <node ref="R23" pin="1"/>
+      <node ref="Q11" pin="2"/>
+    </net>
+    <net code="164" name="Net-(U10-Pad11)">
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="165" name="Net-(U10-Pad9)">
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="166" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="167" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="U10" pin="15"/>
+    </net>
+    <net code="168" name="Net-(R29-Pad2)">
+      <node ref="U10" pin="14"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="169" name="Net-(U10-Pad13)">
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="170" name="Net-(U10-Pad12)">
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="171" name="Net-(U10-Pad10)">
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="172" name="/595_0_P0">
+      <node ref="U10" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="173" name="/595_0_P3">
+      <node ref="U7" pin="4"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="174" name="/595_0_P2">
+      <node ref="U7" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="175" name="/595_0_P1">
+      <node ref="U9" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="176" name="Net-(Q15-Pad2)">
+      <node ref="R27" pin="1"/>
+      <node ref="Q15" pin="2"/>
+    </net>
+    <net code="177" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="178" name="Net-(Q3-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="179" name="Net-(Q9-Pad2)">
+      <node ref="Q9" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="180" name="Net-(C6-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="181" name="Net-(Q19-Pad2)">
+      <node ref="Q19" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="182" name="Net-(Q21-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="Q21" pin="2"/>
+    </net>
+    <net code="183" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="184" name="Net-(Q2-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="185" name="BOOST_OUT">
+      <node ref="J5" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="186" name="Net-(C7-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="187" name="/138_0_P0">
+      <node ref="R17" pin="2"/>
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="188" name="/138_0_P1">
+      <node ref="U7" pin="14"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="189" name="/138_0_P2">
+      <node ref="R21" pin="2"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="190" name="/138_0_P3">
+      <node ref="U7" pin="12"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="191" name="/138_0_P4">
+      <node ref="U7" pin="11"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="192" name="/138_0_P5">
+      <node ref="R23" pin="2"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="193" name="/138_0_P6">
+      <node ref="U7" pin="9"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="194" name="/138_0_P7">
+      <node ref="U7" pin="7"/>
+      <node ref="R27" pin="2"/>
     </net>
   </nets>
 </export>
