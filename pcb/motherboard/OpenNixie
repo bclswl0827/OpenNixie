@@ -7,13 +7,13 @@
         <title>KiCad BOM Example 5</title>
     </head>
     <body>
-    <h1>/home/yuki/Devel/boards/Nixie_Clock/pcb/OpenNixie.sch</h1>
-    <p>2023年01月26日 (週四) 22時05分56秒</p>
+    <h1>/home/yuki/Devel/boards/Nixie_Clock/pcb/motherboard/OpenNixie.sch</h1>
+    <p>2023年01月27日 (週五) 22時30分40秒</p>
     <p>Eeschema 5.1.9+dfsg1-1+deb11u1</p>
     <p><b>Component Count:</b>137</p>
     <table>
     <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
-    <tr><td>BT1</td><td>1</td><td>3V</td><td>Device:Battery_Cell</td><td>Battery:BatteryHolder_Keystone_1058_1x2032</td><td>Single-cell battery</td><td></td></tr>
+    <tr><td>BT1</td><td>1</td><td>CR2032</td><td>Device:Battery_Cell</td><td>Battery:BatteryHolder_Keystone_1058_1x2032</td><td>Single-cell battery</td><td></td></tr>
     <tr><td>C1, C7</td><td>2</td><td>10uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
     <tr><td>C2</td><td>1</td><td>1uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
     <tr><td>C3, C5</td><td>2</td><td>470uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>

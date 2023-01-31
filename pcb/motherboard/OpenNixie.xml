@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/yuki/Devel/boards/Nixie_Clock/pcb/OpenNixie.sch</source>
-    <date>2023年01月26日 (週四) 22時05分56秒</date>
+    <source>/home/yuki/Devel/boards/Nixie_Clock/pcb/motherboard/OpenNixie.sch</source>
+    <date>2023年01月27日 (週五) 22時30分40秒</date>
     <tool>Eeschema 5.1.9+dfsg1-1+deb11u1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -188,7 +188,7 @@
       <tstamp>64E1E9FF</tstamp>
     </comp>
     <comp ref="BT1">
-      <value>3V</value>
+      <value>CR2032</value>
       <footprint>Battery:BatteryHolder_Keystone_1058_1x2032</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
@@ -1718,7 +1718,7 @@
       <uri>/usr/share/kicad/library/Memory_EEPROM.lib</uri>
     </library>
     <library logical="Nixie_Clock">
-      <uri>/home/yuki/Devel/boards/Nixie_Clock/pcb/libraries/Nixie_Clock.lib</uri>
+      <uri>/home/yuki/Devel/boards/Nixie_Clock/pcb/motherboard/libraries/Nixie_Clock.lib</uri>
     </library>
     <library logical="Regulator_Linear">
       <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
