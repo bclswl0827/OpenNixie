@@ -267,13 +267,9 @@ Wire Wire Line
 Wire Wire Line
 	8050 1450 8850 1450
 Wire Wire Line
-	8850 1450 8850 1550
-Wire Wire Line
 	8350 1850 8200 1850
 Wire Wire Line
 	8200 1850 8200 2800
-Wire Wire Line
-	8200 2800 9450 2800
 $Comp
 L power:GND #PWR0103
 U 1 1 63D85DC6
@@ -285,160 +281,11 @@ F 3 "" H 8850 2950 50  0001 C CNN
 	1    8850 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 8400 1550 0    50   Input ~ 0
-+5V
-Wire Wire Line
-	8400 1550 8850 1550
-Connection ~ 8850 1550
-Wire Wire Line
-	8850 1550 8850 1650
-$Comp
-L Device:R_Small R3
-U 1 1 63D8C770
-P 9650 2250
-F 0 "R3" V 9454 2250 50  0000 C CNN
-F 1 "100k" V 9545 2250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9650 2250 50  0001 C CNN
-F 3 "~" H 9650 2250 50  0001 C CNN
-	1    9650 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9850 2050 9850 2250
-Wire Wire Line
-	9750 2250 9850 2250
-Wire Wire Line
-	9350 2050 9850 2050
-$Comp
-L Device:R_Small R1
-U 1 1 63DABDF5
-P 9400 1450
-F 0 "R1" V 9596 1450 50  0000 C CNN
-F 1 "1k" V 9505 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9400 1450 50  0001 C CNN
-F 3 "~" H 9400 1450 50  0001 C CNN
-	1    9400 1450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 9850 2050
-Wire Wire Line
-	8850 1450 9300 1450
-Connection ~ 8850 1450
-Wire Wire Line
-	9500 1450 9850 1450
-Wire Wire Line
-	9850 1450 9850 2050
-Wire Wire Line
-	9350 1850 9450 1850
-$Comp
-L Device:R_Small R2
-U 1 1 63DC3BC4
-P 9550 1850
-F 0 "R2" V 9354 1850 50  0000 C CNN
-F 1 "10k" V 9445 1850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9550 1850 50  0001 C CNN
-F 3 "~" H 9550 1850 50  0001 C CNN
-	1    9550 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9650 1850 9950 1850
-Connection ~ 9450 2250
-Wire Wire Line
-	9450 2250 9550 2250
-Wire Wire Line
-	9350 2250 9450 2250
-$Comp
-L Device:CP_Small C1
-U 1 1 63DFCC9E
-P 9150 2650
-F 0 "C1" V 8925 2650 50  0000 C CNN
-F 1 "10uF" V 9016 2650 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9150 2650 50  0001 C CNN
-F 3 "~" H 9150 2650 50  0001 C CNN
-	1    9150 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 2650 9450 2650
-Wire Wire Line
-	9050 2650 8850 2650
 Connection ~ 8850 2650
 Wire Wire Line
 	8850 2650 8850 2950
-Connection ~ 9450 2650
-Wire Wire Line
-	9450 2650 9450 2800
-Wire Wire Line
-	9450 2250 9450 2650
 Wire Wire Line
 	8850 2450 8850 2650
-Wire Wire Line
-	8900 3800 8900 3600
-Wire Wire Line
-	8900 4200 8900 4350
-$Comp
-L power:GND #PWR0104
-U 1 1 63E5A879
-P 8900 4350
-F 0 "#PWR0104" H 8900 4100 50  0001 C CNN
-F 1 "GND" H 8905 4177 50  0000 C CNN
-F 2 "" H 8900 4350 50  0001 C CNN
-F 3 "" H 8900 4350 50  0001 C CNN
-	1    8900 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Lamp_Neon NE1
-U 1 1 63E5F522
-P 9950 4000
-F 0 "NE1" H 9822 3954 50  0000 R CNN
-F 1 "Lamp_Neon" H 9822 4045 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 9950 4100 50  0001 C CNN
-F 3 "~" V 9950 4100 50  0001 C CNN
-	1    9950 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 3600 9300 3600
-$Comp
-L Device:R_Small R4
-U 1 1 63E6FA71
-P 9400 3600
-F 0 "R4" V 9204 3600 50  0000 C CNN
-F 1 "50k" V 9295 3600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9400 3600 50  0001 C CNN
-F 3 "~" H 9400 3600 50  0001 C CNN
-	1    9400 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:MPSA42 Q1
-U 1 1 63E823EF
-P 8800 4000
-F 0 "Q1" H 8991 4046 50  0000 L CNN
-F 1 "MPSA42" H 8991 3955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9000 3925 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 8800 4000 50  0001 L CNN
-	1    8800 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 3600 9950 3800
-Wire Wire Line
-	9500 3600 9950 3600
-Wire Wire Line
-	9950 4200 9950 4400
-Wire Wire Line
-	9700 4400 9950 4400
-Text GLabel 9700 4400 0    50   Input ~ 0
-ANODE_PIN
-Text GLabel 9950 1850 2    50   Input ~ 0
-NE555_OUT
-Text GLabel 8450 4000 0    50   Input ~ 0
-NE555_OUT
-Wire Wire Line
-	8450 4000 8600 4000
 Wire Wire Line
 	6850 2100 7050 2100
 Text GLabel 7050 5400 3    50   Input ~ 0
@@ -469,5 +316,158 @@ F 2 "Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical" H 1850 5150 50  0001 
 F 3 "~" H 1850 5150 50  0001 C CNN
 	1    1850 5150
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4000 8600 4000
+Text GLabel 8450 4000 0    50   Input ~ 0
+NE555_OUT
+Wire Wire Line
+	9700 4400 9950 4400
+Wire Wire Line
+	9950 4200 9950 4400
+Wire Wire Line
+	9500 3600 9950 3600
+Wire Wire Line
+	9950 3600 9950 3800
+$Comp
+L Transistor_BJT:MPSA42 Q1
+U 1 1 63E823EF
+P 8800 4000
+F 0 "Q1" H 8991 4046 50  0000 L CNN
+F 1 "MPSA42" H 8991 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9000 3925 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 8800 4000 50  0001 L CNN
+	1    8800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Lamp_Neon NE1
+U 1 1 63E5F522
+P 9950 4000
+F 0 "NE1" H 9822 3954 50  0000 R CNN
+F 1 "Lamp_Neon" H 9822 4045 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 9950 4100 50  0001 C CNN
+F 3 "~" V 9950 4100 50  0001 C CNN
+	1    9950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 63E5A879
+P 8900 4350
+F 0 "#PWR0104" H 8900 4100 50  0001 C CNN
+F 1 "GND" H 8905 4177 50  0000 C CNN
+F 2 "" H 8900 4350 50  0001 C CNN
+F 3 "" H 8900 4350 50  0001 C CNN
+	1    8900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4200 8900 4350
+Wire Wire Line
+	8900 3800 8900 3600
+Wire Wire Line
+	8900 3600 9300 3600
+Text GLabel 9700 4400 0    50   Input ~ 0
+ANODE_PIN
+Wire Wire Line
+	9050 2650 8850 2650
+$Comp
+L Device:CP_Small C1
+U 1 1 63DFCC9E
+P 9150 2650
+F 0 "C1" V 8925 2650 50  0000 C CNN
+F 1 "10uF" V 9016 2650 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9150 2650 50  0001 C CNN
+F 3 "~" H 9150 2650 50  0001 C CNN
+	1    9150 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2250 9450 2250
+Connection ~ 9450 2250
+Wire Wire Line
+	9450 2250 9450 2650
+Wire Wire Line
+	9450 2650 9450 2800
+Connection ~ 9450 2650
+Wire Wire Line
+	9250 2650 9450 2650
+Wire Wire Line
+	8200 2800 9450 2800
+Connection ~ 8850 1550
+Wire Wire Line
+	8850 1550 8850 1650
+Wire Wire Line
+	8850 1450 8850 1550
+Wire Wire Line
+	8400 1550 8850 1550
+Text GLabel 8400 1550 0    50   Input ~ 0
++5V
+Wire Wire Line
+	9450 2250 9550 2250
+Wire Wire Line
+	9750 2250 9850 2250
+$Comp
+L Device:R_Small R3
+U 1 1 63D8C770
+P 9650 2250
+F 0 "R3" V 9454 2250 50  0000 C CNN
+F 1 "100k" V 9545 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9650 2250 50  0001 C CNN
+F 3 "~" H 9650 2250 50  0001 C CNN
+	1    9650 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 1450 9850 1450
+Connection ~ 8850 1450
+Wire Wire Line
+	8850 1450 9300 1450
+$Comp
+L Device:R_Small R1
+U 1 1 63DABDF5
+P 9400 1450
+F 0 "R1" V 9596 1450 50  0000 C CNN
+F 1 "1k" V 9505 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9400 1450 50  0001 C CNN
+F 3 "~" H 9400 1450 50  0001 C CNN
+	1    9400 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 1450 9850 2050
+Wire Wire Line
+	9850 2050 9850 2250
+Connection ~ 9850 2050
+Wire Wire Line
+	9350 2050 9850 2050
+Text GLabel 9950 1850 2    50   Input ~ 0
+NE555_OUT
+Wire Wire Line
+	9650 1850 9950 1850
+$Comp
+L Device:R_Small R2
+U 1 1 63DC3BC4
+P 9550 1850
+F 0 "R2" V 9354 1850 50  0000 C CNN
+F 1 "10k" V 9445 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9550 1850 50  0001 C CNN
+F 3 "~" H 9550 1850 50  0001 C CNN
+	1    9550 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 1850 9450 1850
+$Comp
+L Device:R_Small R4
+U 1 1 63E6FA71
+P 9400 3600
+F 0 "R4" V 9204 3600 50  0000 C CNN
+F 1 "100k" V 9295 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9400 3600 50  0001 C CNN
+F 3 "~" H 9400 3600 50  0001 C CNN
+	1    9400 3600
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

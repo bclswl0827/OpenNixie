@@ -8,16 +8,16 @@
     </head>
     <body>
     <h1>/home/yuki/Devel/boards/Nixie_Clock/pcb/motherboard/OpenNixie.sch</h1>
-    <p>2023年01月27日 (週五) 22時30分40秒</p>
+    <p>2023年02月07日 (週二) 21時16分19秒</p>
     <p>Eeschema 5.1.9+dfsg1-1+deb11u1</p>
-    <p><b>Component Count:</b>137</p>
+    <p><b>Component Count:</b>136</p>
     <table>
     <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
     <tr><td>BT1</td><td>1</td><td>CR2032</td><td>Device:Battery_Cell</td><td>Battery:BatteryHolder_Keystone_1058_1x2032</td><td>Single-cell battery</td><td></td></tr>
     <tr><td>C1, C7</td><td>2</td><td>10uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
     <tr><td>C2</td><td>1</td><td>1uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
     <tr><td>C3, C5</td><td>2</td><td>470uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
-    <tr><td>C4, C6, C8</td><td>3</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C4, C8</td><td>2</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
     <tr><td>D1</td><td>1</td><td>1N4148</td><td>Diode:1N4148</td><td>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</td><td>100V 0.15A standard switching diode, DO-35</td><td></td></tr>
     <tr><td>D2</td><td>1</td><td>ES2J</td><td>Device:D_Schottky_Small</td><td>Diode_SMD:D_SMA</td><td>Schottky diode, small symbol</td><td></td></tr>
     <tr><td>D3</td><td>1</td><td>LED_RCGB</td><td>Device:LED_RCGB</td><td>LED_THT:LED_D5.0mm-4_RGB</td><td>RGB LED, red/cathode/green/blue</td><td></td></tr>

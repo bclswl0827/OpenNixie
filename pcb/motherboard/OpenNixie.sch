@@ -995,15 +995,10 @@ Wire Wire Line
 	9500 2450 8350 2450
 Connection ~ 9500 2450
 Wire Wire Line
-	4950 6100 5450 6100
-Connection ~ 4950 6100
+	4250 4450 4750 4450
 Wire Wire Line
-	4700 4050 4950 4050
-Wire Wire Line
-	2600 3950 5450 3950
-Wire Wire Line
-	4050 6100 4950 6100
-Text GLabel 4600 4650 0    50   Input ~ 0
+	2600 3950 5300 3950
+Text GLabel 4150 5050 0    50   Input ~ 0
 BOOST_OUT
 Wire Wire Line
 	2000 4000 2100 4000
@@ -1019,9 +1014,9 @@ Wire Wire Line
 	1500 6100 2000 6100
 Text GLabel 2100 4000 2    50   Input ~ 0
 SHDN_PIN
-Connection ~ 5450 3950
+Connection ~ 5300 3950
 Wire Wire Line
-	5450 3950 5450 4850
+	5300 3950 5300 4850
 Connection ~ 3100 4950
 Wire Wire Line
 	3100 4950 3250 4950
@@ -1042,32 +1037,29 @@ Wire Wire Line
 Wire Wire Line
 	2600 5450 2600 5500
 Wire Wire Line
-	3550 6100 4050 6100
-Connection ~ 4050 6100
-Wire Wire Line
-	4950 5050 4950 6100
+	4750 5050 4750 6100
 $Comp
 L Device:CP_Small C7
 U 1 1 63E82EE3
-P 4950 4950
-F 0 "C7" H 5038 4996 50  0000 L CNN
-F 1 "10uF" H 5038 4905 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4950 4950 50  0001 C CNN
-F 3 "~" H 4950 4950 50  0001 C CNN
-	1    4950 4950
+P 4750 4950
+F 0 "C7" H 4838 4996 50  0000 L CNN
+F 1 "10uF" H 4838 4905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4750 4950 50  0001 C CNN
+F 3 "~" H 4750 4950 50  0001 C CNN
+	1    4750 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 5050 5450 6100
+	5300 5050 5300 6100
 $Comp
 L Device:R_Small R12
 U 1 1 63E66239
-P 5450 4950
-F 0 "R12" H 5509 4996 50  0000 L CNN
-F 1 "68k" H 5509 4905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5450 4950 50  0001 C CNN
-F 3 "~" H 5450 4950 50  0001 C CNN
-	1    5450 4950
+P 5300 4950
+F 0 "R12" H 5359 4996 50  0000 L CNN
+F 1 "68k" H 5359 4905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5300 4950 50  0001 C CNN
+F 3 "~" H 5300 4950 50  0001 C CNN
+	1    5300 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1108,19 +1100,6 @@ F 1 "470uF" H 1588 4905 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1500 4950 50  0001 C CNN
 F 3 "~" H 1500 4950 50  0001 C CNN
 	1    1500 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 5050 4050 6100
-$Comp
-L Device:C_Small C6
-U 1 1 63DAEE6F
-P 4050 4950
-F 0 "C6" H 4142 4996 50  0000 L CNN
-F 1 "0.1uF" H 4142 4905 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 4050 4950 50  0001 C CNN
-F 3 "~" H 4050 4950 50  0001 C CNN
-	1    4050 4950
 	1    0    0    -1  
 $EndComp
 Connection ~ 2800 6100
@@ -1171,23 +1150,20 @@ F 3 "~" H 2000 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4650 4700 4650
-Connection ~ 4950 4050
+	4150 5050 4250 5050
 Wire Wire Line
-	4950 4050 4950 4850
+	4250 4450 4250 4650
 Wire Wire Line
-	4700 4050 4700 4250
-Wire Wire Line
-	4700 4450 4700 4650
+	4250 4850 4250 5050
 $Comp
 L Device:R_Small R6
 U 1 1 6A87AE72
-P 4700 4350
-F 0 "R6" H 4500 4400 50  0000 L CNN
-F 1 "20k" H 4500 4300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4700 4350 50  0001 C CNN
-F 3 "~" H 4700 4350 50  0001 C CNN
-	1    4700 4350
+P 4250 4750
+F 0 "R6" H 4050 4800 50  0000 L CNN
+F 1 "20k" H 4050 4700 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4250 4750 50  0001 C CNN
+F 3 "~" H 4250 4750 50  0001 C CNN
+	1    4250 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1216,8 +1192,6 @@ F 3 "" H 3450 4300 50  0001 L CNN
 	1    3450 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 4050 4950 3750
 $Comp
 L Device:L_Small L1
 U 1 1 63D8F31B
@@ -1230,38 +1204,33 @@ F 3 "~" H 3350 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4050 3750 4050 4850
-Wire Wire Line
 	1500 4850 1500 3750
 $Comp
 L Device:D_Schottky_Small D2
 U 1 1 63E25C25
-P 4500 3750
-F 0 "D2" H 4500 3543 50  0000 C CNN
-F 1 "ES2J" H 4500 3634 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" V 4500 3750 50  0001 C CNN
-F 3 "~" V 4500 3750 50  0001 C CNN
-	1    4500 3750
+P 4250 3750
+F 0 "D2" H 4250 3543 50  0000 C CNN
+F 1 "ES2J" H 4250 3634 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" V 4250 3750 50  0001 C CNN
+F 3 "~" V 4250 3750 50  0001 C CNN
+	1    4250 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4600 3750 4950 3750
+	4350 3750 4750 3750
 $Comp
 L Device:R_Small R5
 U 1 1 63E5A426
-P 5200 3750
-F 0 "R5" V 5004 3750 50  0000 C CNN
-F 1 "10M" V 5095 3750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5200 3750 50  0001 C CNN
-F 3 "~" H 5200 3750 50  0001 C CNN
-	1    5200 3750
+P 5050 3750
+F 0 "R5" V 4854 3750 50  0000 C CNN
+F 1 "10M" V 4945 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5050 3750 50  0001 C CNN
+F 3 "~" H 5050 3750 50  0001 C CNN
+	1    5050 3750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5300 3750 5450 3750
-Connection ~ 4050 3750
-Wire Wire Line
-	4050 3750 4400 3750
+	5150 3750 5300 3750
 Wire Wire Line
 	1500 3750 3100 3750
 Wire Wire Line
@@ -1270,17 +1239,12 @@ Connection ~ 3100 3750
 Wire Wire Line
 	3100 3750 3100 4950
 Wire Wire Line
-	3550 3750 4050 3750
-Wire Wire Line
 	3450 3750 3550 3750
 Connection ~ 3550 3750
 Wire Wire Line
 	3550 3750 3550 4100
 Wire Wire Line
-	5450 3750 5450 3950
-Connection ~ 4950 3750
-Wire Wire Line
-	4950 3750 5100 3750
+	5300 3750 5300 3950
 Wire Notes Line
 	15300 3250 22800 3250
 Text Notes 21300 3200 0    50   ~ 0
@@ -4215,6 +4179,31 @@ F 3 "~" H 19300 5500 50  0001 C CNN
 	1    19300 5500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 6100 4750 6100
+Wire Wire Line
+	3550 3750 4150 3750
+Connection ~ 4750 4450
+Wire Wire Line
+	4750 4450 4750 4850
+Wire Wire Line
+	4750 3750 4750 4450
+Connection ~ 4750 3750
+Connection ~ 4750 6100
+Wire Wire Line
+	4750 6100 5300 6100
+Wire Wire Line
+	4750 3750 4950 3750
+Wire Notes Line
+	4550 4750 4550 5200
+Wire Notes Line
+	4550 5200 5100 5200
+Wire Notes Line
+	5100 5200 5100 4750
+Wire Notes Line
+	5100 4750 4550 4750
+Text Notes 4250 5350 0    50   ~ 0
+Use a capacitor more than 250V
 Wire Bus Line
 	11050 13150 11050 14500
 Wire Bus Line
