@@ -1,0 +1,3 @@
+[submodule "lib/uRTCLib"]
+	path = lib/uRTCLib
+	url = https://github.com/Naguissa/uRTCLib
