@@ -109,10 +109,10 @@ void loop() {
     Serial.println("显示当前时间");
 #endif
     time.getTime();
-    nixie.setDecoder(utils.getTens(time.timeData.hour),
-                     utils.getUnits(time.timeData.hour),
-                     utils.getTens(time.timeData.minute),
-                     utils.getUnits(time.timeData.minute));
+    nixie.setNixie(utils.getTens(time.timeData.hour),
+                   utils.getUnits(time.timeData.hour),
+                   utils.getTens(time.timeData.minute),
+                   utils.getUnits(time.timeData.minute));
     delay(SWITCH_INTERVAL);
     getTime(getTimeFlag);
     // 显示日期
@@ -120,7 +120,7 @@ void loop() {
     Serial.println("显示当前日期");
 #endif
     time.getTime();
-    nixie.setDecoder(
+    nixie.setNixie(
         utils.getTens(time.timeData.month), utils.getUnits(time.timeData.month),
         utils.getTens(time.timeData.day), utils.getUnits(time.timeData.day));
     delay(SWITCH_INTERVAL);
@@ -130,8 +130,8 @@ void loop() {
     Serial.println("显示当前年份");
 #endif
     time.getTime();
-    nixie.setDecoder(2, 0, utils.getTens(time.timeData.year),
-                     utils.getUnits(time.timeData.year));
+    nixie.setNixie(2, 0, utils.getTens(time.timeData.year),
+                   utils.getUnits(time.timeData.year));
     delay(SWITCH_INTERVAL);
     getTime(getTimeFlag);
     // 每 10 分钟做阴极保护

@@ -1051,17 +1051,6 @@ F 3 "~" H 4750 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 5050 5300 6100
-$Comp
-L Device:R_Small R12
-U 1 1 63E66239
-P 5300 4950
-F 0 "R12" H 5359 4996 50  0000 L CNN
-F 1 "68k" H 5359 4905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5300 4950 50  0001 C CNN
-F 3 "~" H 5300 4950 50  0001 C CNN
-	1    5300 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 4300 2400 4300
 Wire Wire Line
@@ -1156,17 +1145,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 4850 4250 5050
 $Comp
-L Device:R_Small R6
-U 1 1 6A87AE72
-P 4250 4750
-F 0 "R6" H 4050 4800 50  0000 L CNN
-F 1 "20k" H 4050 4700 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4250 4750 50  0001 C CNN
-F 3 "~" H 4250 4750 50  0001 C CNN
-	1    4250 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Nixie_Clock:MAX1771CSA U3
 U 1 1 63E16B68
 P 2600 4950
@@ -1181,17 +1159,6 @@ Wire Wire Line
 	2800 4450 2800 4300
 Wire Wire Line
 	2800 4300 3250 4300
-$Comp
-L Nixie_Clock:IRFB4620 Q2
-U 1 1 63FF12BB
-P 3450 4300
-F 0 "Q2" H 3655 4346 50  0000 L CNN
-F 1 "IRFB4620" H 3655 4255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3450 4300 50  0001 C CIN
-F 3 "" H 3450 4300 50  0001 L CNN
-	1    3450 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:L_Small L1
 U 1 1 63D8F31B
@@ -1208,27 +1175,16 @@ Wire Wire Line
 $Comp
 L Device:D_Schottky_Small D2
 U 1 1 63E25C25
-P 4250 3750
-F 0 "D2" H 4250 3543 50  0000 C CNN
-F 1 "ES2J" H 4250 3634 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" V 4250 3750 50  0001 C CNN
-F 3 "~" V 4250 3750 50  0001 C CNN
-	1    4250 3750
+P 4150 3750
+F 0 "D2" H 4150 3543 50  0000 C CNN
+F 1 "ES2J" H 4150 3634 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" V 4150 3750 50  0001 C CNN
+F 3 "~" V 4150 3750 50  0001 C CNN
+	1    4150 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4350 3750 4750 3750
-$Comp
-L Device:R_Small R5
-U 1 1 63E5A426
-P 5050 3750
-F 0 "R5" V 4854 3750 50  0000 C CNN
-F 1 "10M" V 4945 3750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5050 3750 50  0001 C CNN
-F 3 "~" H 5050 3750 50  0001 C CNN
-	1    5050 3750
-	0    1    1    0   
-$EndComp
+	4250 3750 4750 3750
 Wire Wire Line
 	5150 3750 5300 3750
 Wire Wire Line
@@ -4182,7 +4138,7 @@ $EndComp
 Wire Wire Line
 	3550 6100 4750 6100
 Wire Wire Line
-	3550 3750 4150 3750
+	3550 3750 4050 3750
 Connection ~ 4750 4450
 Wire Wire Line
 	4750 4450 4750 4850
@@ -4202,8 +4158,52 @@ Wire Notes Line
 	5100 5200 5100 4750
 Wire Notes Line
 	5100 4750 4550 4750
+$Comp
+L Nixie_Clock:TK8P65W Q2
+U 1 1 641075BE
+P 3450 4300
+F 0 "Q2" H 3654 4346 50  0000 L CNN
+F 1 "TK8P65W" H 3654 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 3450 4300 50  0001 C CIN
+F 3 "" H 3450 4300 50  0001 L CNN
+	1    3450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 63E66239
+P 5300 4950
+F 0 "R12" H 5359 4996 50  0000 L CNN
+F 1 "68k" H 5359 4905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5300 4950 50  0001 C CNN
+F 3 "~" H 5300 4950 50  0001 C CNN
+	1    5300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 63E5A426
+P 5050 3750
+F 0 "R5" V 4854 3750 50  0000 C CNN
+F 1 "10M" V 4945 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5050 3750 50  0001 C CNN
+F 3 "~" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	0    1    1    0   
+$EndComp
 Text Notes 4250 5350 0    50   ~ 0
 Use a capacitor more than 250V
+$Comp
+L Device:R_Small R6
+U 1 1 6A87AE72
+P 4250 4750
+F 0 "R6" H 4050 4800 50  0000 L CNN
+F 1 "47k" H 4050 4700 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4250 4750 50  0001 C CNN
+F 3 "~" H 4250 4750 50  0001 C CNN
+	1    4250 4750
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	11050 13150 11050 14500
 Wire Bus Line

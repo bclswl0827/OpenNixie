@@ -8,7 +8,7 @@
     </head>
     <body>
     <h1>/home/yuki/Devel/boards/Nixie_Clock/pcb/motherboard/OpenNixie.sch</h1>
-    <p>2023年02月08日 (週三) 13時19分01秒</p>
+    <p>2023年02月08日 (週三) 22時39分56秒</p>
     <p>Eeschema 5.1.9+dfsg1-1+deb11u1</p>
     <p><b>Component Count:</b>136</p>
     <table>
@@ -29,19 +29,18 @@
     <tr><td>J7, J8, J9, J10</td><td>4</td><td>Conn_01x10</td><td>Connector_Generic:Conn_01x10</td><td>Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical</td><td>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>L1</td><td>1</td><td>220uH</td><td>Device:L_Small</td><td>Inductor_THT:L_Radial_D7.0mm_P3.00mm</td><td>Inductor, small symbol</td><td></td></tr>
     <tr><td>Q1</td><td>1</td><td>S8050</td><td>Transistor_BJT:S8050</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92</td><td></td></tr>
-    <tr><td>Q2</td><td>1</td><td>IRFB4620</td><td>Nixie_Clock:IRFB4620</td><td>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</td><td></td><td></td></tr>
+    <tr><td>Q2</td><td>1</td><td>TK8P65W</td><td>Nixie_Clock:TK8P65W</td><td>Package_TO_SOT_SMD:TO-252-2</td><td></td><td></td></tr>
     <tr><td>Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40, Q41, Q42</td><td>40</td><td>MPSA42</td><td>Transistor_BJT:MPSA42</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92</td><td></td></tr>
     <tr><td>R1, R3</td><td>2</td><td>1k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R2</td><td>1</td><td>100k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R4</td><td>1</td><td>1M</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R5</td><td>1</td><td>10M</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
-    <tr><td>R6</td><td>1</td><td>20k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R6, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54</td><td>41</td><td>47k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R7, R8</td><td>2</td><td>10k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R9, R10, R11</td><td>3</td><td>4.7k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R12</td><td>1</td><td>68k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R13</td><td>1</td><td>500</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R14</td><td>1</td><td>0.05</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
-    <tr><td>R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54</td><td>40</td><td>47k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>RV1</td><td>1</td><td>200k</td><td>Device:R_POT_Small</td><td>Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical</td><td>Potentiometer</td><td></td></tr>
     <tr><td>SW1</td><td>1</td><td>SW_SPST</td><td>Switch:SW_SPST</td><td>Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm</td><td>Single Pole Single Throw (SPST) switch</td><td></td></tr>
     <tr><td>U1</td><td>1</td><td>LM7805_TO220</td><td>Regulator_Linear:LM7805_TO220</td><td>Package_TO_SOT_THT:TO-220-3_Vertical</td><td>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</td><td></td></tr>

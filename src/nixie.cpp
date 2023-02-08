@@ -14,7 +14,7 @@ Nixie::Nixie(uint_least8_t latchPin,
 }
 
 // 计算 BCD 译码器输入值
-uint_least8_t Nixie::getDecoder(uint_least8_t num) {
+uint_least8_t Nixie::getNixie(uint_least8_t num) {
     switch (num) {
         case 0:
             return 0x00;
@@ -42,15 +42,15 @@ uint_least8_t Nixie::getDecoder(uint_least8_t num) {
 }
 
 // 设定 BCD 译码器输入电平
-void Nixie::setDecoder(uint_least8_t segment_1,
-                       uint_least8_t segment_2,
-                       uint_least8_t segment_3,
-                       uint_least8_t segment_4) {
+void Nixie::setNixie(uint_least8_t segment_1,
+                     uint_least8_t segment_2,
+                     uint_least8_t segment_3,
+                     uint_least8_t segment_4) {
     uint_least16_t val = 0;
-    val |= getDecoder(segment_1) << 12;
-    val |= getDecoder(segment_2) << 8;
-    val |= getDecoder(segment_3) << 4;
-    val |= getDecoder(segment_4);
+    val |= getNixie(segment_1) << 12;
+    val |= getNixie(segment_2) << 8;
+    val |= getNixie(segment_3) << 4;
+    val |= getNixie(segment_4);
     shiftOut(latchPin, dataPin, clockPin, val);
 }
 
@@ -72,7 +72,7 @@ void Nixie::shiftOut(uint_least8_t latchPin,
 void Nixie::setProtect(uint_least8_t loop, uint_least16_t interval) {
     for (uint_least8_t i = 0; i < loop; i++) {
         for (uint_least8_t j = 0; j < 10; j++) {
-            setDecoder(j, j, j, j);
+            setNixie(j, j, j, j);
             delay(interval);
         }
     }

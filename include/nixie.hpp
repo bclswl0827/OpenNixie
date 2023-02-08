@@ -7,7 +7,7 @@ class Nixie {
    private:
     uint_least8_t latchPin, dataPin, clockPin;
 
-    uint_least8_t getDecoder(uint_least8_t num);
+    uint_least8_t getNixie(uint_least8_t num);
     void shiftOut(uint_least8_t latchPin,
                   uint_least8_t dataPin,
                   uint_least8_t clockPin,
@@ -17,9 +17,9 @@ class Nixie {
     Nixie(uint_least8_t latchPin,
           uint_least8_t dataPin,
           uint_least8_t clockPin);
-    void setDecoder(uint_least8_t segment_1,
-                    uint_least8_t segment_2,
-                    uint_least8_t segment_3,
-                    uint_least8_t segment_4);
+    void setNixie(uint_least8_t segment_1,
+                  uint_least8_t segment_2,
+                  uint_least8_t segment_3,
+                  uint_least8_t segment_4);
     void setProtect(uint_least8_t loop, uint_least16_t interval);
 };
