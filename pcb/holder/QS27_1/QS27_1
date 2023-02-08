@@ -8,7 +8,7 @@
     </head>
     <body>
     <h1>/home/yuki/Devel/boards/Nixie_Clock/pcb/holder/QS27_1/QS27_1.sch</h1>
-    <p>2023年02月07日 (週二) 21時12分47秒</p>
+    <p>2023年02月09日 (週四) 01時10分31秒</p>
     <p>Eeschema 5.1.9+dfsg1-1+deb11u1</p>
     <p><b>Component Count:</b>17</p>
     <table>
@@ -21,7 +21,8 @@
     <tr><td>Q1</td><td>1</td><td>MPSA42</td><td>Transistor_BJT:MPSA42</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92</td><td></td></tr>
     <tr><td>R1</td><td>1</td><td>1k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>R2</td><td>1</td><td>10k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
-    <tr><td>R3, R4</td><td>2</td><td>100k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>100k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>150k</td><td>Device:R_Small</td><td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td><td>Resistor, small symbol</td><td></td></tr>
     <tr><td>U1</td><td>1</td><td>NE555P</td><td>Timer:NE555P</td><td>Package_DIP:DIP-8_W7.62mm</td><td>Precision Timers, 555 compatible,  PDIP-8</td><td></td></tr><!--TABLEROW-->
     </table>
     </body>
