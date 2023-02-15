@@ -3360,7 +3360,7 @@
     (stroke (width 0) (type default))
     (uuid 6143ea65-77c4-4577-b4f2-adea2b3a59b3)
   )
-  (polyline (pts (xy 12.7 196.85) (xy 166.37 196.85))
+  (polyline (pts (xy 13.97 196.85) (xy 166.37 196.85))
     (stroke (width 0) (type default))
     (uuid 61933b6d-1fbd-4dfc-885a-d0c2665e2fd5)
   )
@@ -6329,10 +6329,10 @@
     (property "Datasheet" "" (at 214.63 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83da))
-    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83da))
-    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec75fc))
-    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec75fc))
+    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83db))
+    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83db))
+    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec75fd))
+    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec75fd))
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e"
