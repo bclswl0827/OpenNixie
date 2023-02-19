@@ -35,13 +35,13 @@
 // 红色指示灯
 #define RGB_RED D7
 // 绿色指示灯
-#define RGB_GREEN D8
+#define RGB_GRN D8
 // 蓝色指示灯
-#define RGB_BLUE D9
+#define RGB_BLE D9
 
 // 移位寄存器 ST_CP（Latch）
-#define LATCH_PIN D10
+#define SR_LATCH D10
 // 移位寄存器 DS（Data）
-#define DATA_PIN D11
+#define SR_DATA D11
 // 移位寄存器 SH_CP（Clock）
-#define CLOCK_PIN D12
+#define SR_CLOCK D12
