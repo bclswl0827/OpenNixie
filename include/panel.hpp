@@ -8,7 +8,6 @@ class Panel {
     uint_least8_t timePin, redPin, greenPin, bluePin;
 
    public:
-    uint_least8_t currentColor;
     uint_least16_t lastClick;
 
     Panel(uint_least8_t timePin,

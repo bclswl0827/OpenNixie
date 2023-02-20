@@ -37,7 +37,9 @@ uint_least8_t Blueth::getMessage(uint_least8_t buffer[20],
         if (buffer[18] == '0' || buffer[18] == '8' || buffer[18] == '9' ||
             buffer[19] != '*' || buffer[2] != buffer[5] || firstRead ||
             buffer[8] != buffer[11] || buffer[14] != buffer[17]) {
-            firstRead ? firstRead = 0 : firstRead = 1;
+            if (firstRead) {
+                firstRead = 0;
+            }
             delay(200);
             return getMessage(buffer, timeout, --retry, minute, second);
         }

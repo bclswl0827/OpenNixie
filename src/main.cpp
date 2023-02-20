@@ -17,7 +17,7 @@ Blueth blueth(BLUETH_RX, BLUETH_TX, BLUETH_BAUD);
 Utils utils;
 
 // 对时 Flag，在中断中变更
-uint_least8_t getTimeFlag = 0;
+uint_least8_t alignTimeFlag = 0;
 
 // 对时中断函数
 void timePinInterrupt() {
@@ -27,12 +27,12 @@ void timePinInterrupt() {
         // 点亮所有面板灯
         panel.setColor(HIGH, HIGH, HIGH);
         // 将对时 Flag 设定为 1
-        getTimeFlag = 1;
+        alignTimeFlag = 1;
     }
 }
 
-// 时间获取函数
-void getTime(uint_least8_t flag) {
+// 时间校准函数
+void alignTime(uint_least8_t flag) {
     if (!flag) {
         return;
     }
@@ -40,7 +40,7 @@ void getTime(uint_least8_t flag) {
     Serial.println("执行对时程序");
 #endif
     // 重置对时 Flag 为 0
-    getTimeFlag = 0;
+    alignTimeFlag = 0;
     // 发送对时指令
     blueth.setMessage(1);
     // 取得当前时间
@@ -113,7 +113,7 @@ void loop() {
                    utils.getUnits(time.timeData.hour),
                    utils.getTens(time.timeData.minute),
                    utils.getUnits(time.timeData.minute), SWITCH_INTERVAL);
-    getTime(getTimeFlag);
+    alignTime(alignTimeFlag);
     // 显示日期
 #if DEBUG_FLAG == 1
     Serial.println("显示当前日期");
@@ -123,7 +123,7 @@ void loop() {
                    utils.getUnits(time.timeData.month),
                    utils.getTens(time.timeData.day),
                    utils.getUnits(time.timeData.day), SWITCH_INTERVAL);
-    getTime(getTimeFlag);
+    alignTime(alignTimeFlag);
     // 显示年份
 #if DEBUG_FLAG == 1
     Serial.println("显示当前年份");
@@ -131,13 +131,13 @@ void loop() {
     time.getTime();
     nixie.setShift(2, 0, utils.getTens(time.timeData.year),
                    utils.getUnits(time.timeData.year), SWITCH_INTERVAL);
-    getTime(getTimeFlag);
+    alignTime(alignTimeFlag);
     // 每 10 分钟做阴极保护
     if (time.getTime().minute % 10 == 0) {
 #if DEBUG_FLAG == 1
         Serial.println("执行阴极保护");
 #endif
         nixie.setProtect(3, SWITCH_INTERVAL / 2);
-        getTime(getTimeFlag);
+        alignTime(alignTimeFlag);
     }
 }

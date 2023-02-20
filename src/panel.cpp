@@ -20,7 +20,6 @@ Panel::Panel(uint_least8_t timePin,
 void Panel::setColor(uint_least8_t redVal,
                      uint_least8_t greenVal,
                      uint_least8_t blueVal) {
-    currentColor = (redVal << 2) | (greenVal << 1) | blueVal;
     digitalWrite(redPin, redVal);
     digitalWrite(greenPin, greenVal);
     digitalWrite(bluePin, blueVal);
