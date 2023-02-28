@@ -7,7 +7,7 @@
   (title_block
     (title "OpenNixie")
     (date "2023-02-15")
-    (rev "v2.0")
+    (rev "v3.0")
   )
 
   (lib_symbols

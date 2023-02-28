@@ -4,3 +4,15 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+
+pcb/motherboard/*-backups
+pcb/motherboard/*-cache
+pcb/motherboard/*.kicad_prl
+
+pcb/holder/QS-27/*-backups
+pcb/holder/QS-27/*-cache
+pcb/holder/QS-27/*.kicad_prl
+
+pcb/holder/IN12/*-backups
+pcb/holder/IN12/*-cache
+pcb/holder/IN12/*.kicad_prl

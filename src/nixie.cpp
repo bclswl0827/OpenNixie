@@ -41,27 +41,29 @@ uint_least8_t Nixie::getShift(uint_least8_t num) {
     }
 }
 
-// 设定辉光管 X（4-7 脚、阳极、电平反转）/ Y（0-3 脚阴极）轴之值
+// 设定辉光管 X（4-7 脚、阳极）/ Y（0-3 脚、阴极）轴之值
 void Nixie::setShift(uint_least8_t segment_0,
                      uint_least8_t segment_1,
                      uint_least8_t segment_2,
                      uint_least8_t segment_3,
-                     uint_least16_t t) {
+                     uint_least8_t scan_speed,
+                     uint_least16_t scan_time) {
+    scan_speed /= 4;
     uint_least8_t val = 0;
     uint_least64_t start = millis();
-    while (millis() - start <= t) {
-        val = (getShift(segment_0) << 4) | 0x07;
+    while (millis() - start <= scan_time) {
+        val = (getShift(segment_0) << 4) | 0b1000;
         shiftOut(latchPin, dataPin, clockPin, val);
-        delay(12);
-        val = (getShift(segment_1) << 4) | 0x0B;
+        delay(scan_speed);
+        val = (getShift(segment_1) << 4) | 0b0100;
         shiftOut(latchPin, dataPin, clockPin, val);
-        delay(12);
-        val = (getShift(segment_2) << 4) | 0x0D;
+        delay(scan_speed);
+        val = (getShift(segment_2) << 4) | 0b0010;
         shiftOut(latchPin, dataPin, clockPin, val);
-        delay(12);
-        val = (getShift(segment_3) << 4) | 0x0E;
+        delay(scan_speed);
+        val = (getShift(segment_3) << 4) | 0b0001;
         shiftOut(latchPin, dataPin, clockPin, val);
-        delay(12);
+        delay(scan_speed);
     }
 }
 
@@ -70,20 +72,19 @@ void Nixie::shiftOut(uint_least8_t latchPin,
                      uint_least8_t dataPin,
                      uint_least8_t clockPin,
                      uint_least16_t val) {
+    digitalWrite(latchPin, LOW);
     for (uint_least8_t i = 0; i < 8; i++) {
-        digitalWrite(latchPin, LOW);
         digitalWrite(dataPin, !!(val & (1 << i)));
         digitalWrite(clockPin, HIGH);
         digitalWrite(clockPin, LOW);
-        digitalWrite(latchPin, HIGH);
     }
+    digitalWrite(latchPin, HIGH);
 }
 
 // 阴极保护函数
-void Nixie::setProtect(uint_least8_t loop, uint_least16_t interval) {
-    for (uint_least8_t i = 0; i < loop; i++) {
-        for (uint_least8_t j = 0; j < 10; j++) {
-            setShift(j, j, j, j, interval);
-        }
+void Nixie::setProtect(uint_least16_t scan_time) {
+    for (uint_least8_t j = 0; j < 10; j++) {
+        shiftOut(latchPin, dataPin, clockPin, (getShift(j) << 4) | 0b1111);
+        delay(scan_time);
     }
 }

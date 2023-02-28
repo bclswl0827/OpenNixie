@@ -5,8 +5,10 @@
 // 调试模式波特率
 #define DEBUG_BAUD 9600
 
-// 画面切换间隔
-#define SWITCH_INTERVAL 5000
+// 扫描速度
+#define SCAN_SPEED 28
+// 画面扫描持续时间
+#define SCAN_TIME 5000
 // 按钮防抖动时间
 #define DEBOUNCE_DELAY 1000
 // 对时按钮，须 D2 或 D3

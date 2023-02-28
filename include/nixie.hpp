@@ -21,6 +21,7 @@ class Nixie {
                   uint_least8_t segment_1,
                   uint_least8_t segment_2,
                   uint_least8_t segment_3,
-                  uint_least16_t t);
-    void setProtect(uint_least8_t loop, uint_least16_t interval);
+                  uint_least8_t scan_speed,
+                  uint_least16_t scan_time);
+    void setProtect(uint_least16_t scan_time);
 };

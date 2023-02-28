@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.0"
     },
-    "CreationDate": "2023-02-15T18:29:25+08:00"
+    "CreationDate": "2023-02-28T14:47:30+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "OpenNixie",
       "GUID": "4f70656e-4e69-4786-9965-2e6b69636164",
-      "Revision": "v2.0"
+      "Revision": "v3.0"
     },
     "Size": {
       "X": 152.05,

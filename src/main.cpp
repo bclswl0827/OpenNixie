@@ -112,7 +112,7 @@ void loop() {
     nixie.setShift(utils.getTens(time.timeData.hour),
                    utils.getUnits(time.timeData.hour),
                    utils.getTens(time.timeData.minute),
-                   utils.getUnits(time.timeData.minute), SWITCH_INTERVAL);
+                   utils.getUnits(time.timeData.minute), SCAN_SPEED, SCAN_TIME);
     alignTime(alignTimeFlag);
     // 显示日期
 #if DEBUG_FLAG == 1
@@ -122,7 +122,7 @@ void loop() {
     nixie.setShift(utils.getTens(time.timeData.month),
                    utils.getUnits(time.timeData.month),
                    utils.getTens(time.timeData.day),
-                   utils.getUnits(time.timeData.day), SWITCH_INTERVAL);
+                   utils.getUnits(time.timeData.day), SCAN_SPEED, SCAN_TIME);
     alignTime(alignTimeFlag);
     // 显示年份
 #if DEBUG_FLAG == 1
@@ -130,14 +130,14 @@ void loop() {
 #endif
     time.getTime();
     nixie.setShift(2, 0, utils.getTens(time.timeData.year),
-                   utils.getUnits(time.timeData.year), SWITCH_INTERVAL);
+                   utils.getUnits(time.timeData.year), SCAN_SPEED, SCAN_TIME);
     alignTime(alignTimeFlag);
     // 每 10 分钟做阴极保护
     if (time.getTime().minute % 10 == 0) {
 #if DEBUG_FLAG == 1
         Serial.println("执行阴极保护");
 #endif
-        nixie.setProtect(3, SWITCH_INTERVAL / 2);
+        nixie.setProtect(SCAN_TIME / 5);
         alignTime(alignTimeFlag);
     }
 }

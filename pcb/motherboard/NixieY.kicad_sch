@@ -448,7 +448,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 110.49 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba04)
-    (property "Reference" "Q9" (at 115.3414 72.4916 0)
+    (property "Reference" "Q13" (at 115.3414 72.4916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 115.3414 74.803 0)
@@ -466,7 +466,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q9") (unit 1)
+          (reference "Q13") (unit 1)
         )
       )
     )
@@ -475,7 +475,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 116.84 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba0a)
-    (property "Reference" "Q11" (at 121.6914 83.9216 0)
+    (property "Reference" "Q15" (at 121.6914 83.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 121.6914 86.233 0)
@@ -493,7 +493,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q11") (unit 1)
+          (reference "Q15") (unit 1)
         )
       )
     )
@@ -502,7 +502,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 123.19 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba10)
-    (property "Reference" "Q13" (at 128.0414 95.3516 0)
+    (property "Reference" "Q17" (at 128.0414 95.3516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 128.0414 97.663 0)
@@ -520,7 +520,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q13") (unit 1)
+          (reference "Q17") (unit 1)
         )
       )
     )
@@ -529,7 +529,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 129.54 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba16)
-    (property "Reference" "Q15" (at 134.3914 106.7816 0)
+    (property "Reference" "Q19" (at 134.3914 106.7816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 134.3914 109.093 0)
@@ -547,7 +547,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q15") (unit 1)
+          (reference "Q19") (unit 1)
         )
       )
     )
@@ -556,7 +556,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 161.29 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba1c)
-    (property "Reference" "Q14" (at 166.1414 99.1616 0)
+    (property "Reference" "Q18" (at 166.1414 99.1616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 166.1414 101.473 0)
@@ -574,7 +574,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q14") (unit 1)
+          (reference "Q18") (unit 1)
         )
       )
     )
@@ -583,7 +583,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 154.94 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba22)
-    (property "Reference" "Q12" (at 159.7914 87.7316 0)
+    (property "Reference" "Q16" (at 159.7914 87.7316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 159.7914 90.043 0)
@@ -601,7 +601,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q12") (unit 1)
+          (reference "Q16") (unit 1)
         )
       )
     )
@@ -610,7 +610,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 148.59 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba28)
-    (property "Reference" "Q10" (at 153.4414 76.3016 0)
+    (property "Reference" "Q14" (at 153.4414 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 153.4414 78.613 0)
@@ -628,7 +628,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q10") (unit 1)
+          (reference "Q14") (unit 1)
         )
       )
     )
@@ -637,7 +637,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 142.24 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba2e)
-    (property "Reference" "Q8" (at 147.0914 64.8716 0)
+    (property "Reference" "Q12" (at 147.0914 64.8716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 147.0914 67.183 0)
@@ -655,7 +655,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q8") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -664,7 +664,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 167.64 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba34)
-    (property "Reference" "Q16" (at 172.4914 110.5916 0)
+    (property "Reference" "Q20" (at 172.4914 110.5916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 172.4914 112.903 0)
@@ -682,7 +682,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q16") (unit 1)
+          (reference "Q20") (unit 1)
         )
       )
     )
@@ -691,7 +691,7 @@
   (symbol (lib_id "Transistor_BJT:MPSA42") (at 135.89 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba3a)
-    (property "Reference" "Q17" (at 140.7414 118.2116 0)
+    (property "Reference" "Q21" (at 140.7414 118.2116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPSA42" (at 140.7414 120.523 0)
@@ -709,7 +709,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "Q17") (unit 1)
+          (reference "Q21") (unit 1)
         )
       )
     )
@@ -718,7 +718,7 @@
   (symbol (lib_id "power:GND") (at 113.03 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000067acba40)
-    (property "Reference" "#PWR014" (at 113.03 143.51 0)
+    (property "Reference" "#PWR013" (at 113.03 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.157 141.5542 0)
@@ -734,7 +734,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-00006655b5ad"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/00000000-0000-0000-0000-000066554687"
           (reference "#PWR?") (unit 1)

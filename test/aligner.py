@@ -18,8 +18,8 @@ import datetime
 def main():
     s = serial.Serial(
         # sudo rfcomm connect 0 1C:24:2C:11:7B:B6
-        #port="/dev/rfcomm1",
-        port="/dev/ttyUSB0",
+        port="/dev/rfcomm0",
+        # port="/dev/ttyUSB0",
         baudrate=9600,
         timeout=1,
     )
