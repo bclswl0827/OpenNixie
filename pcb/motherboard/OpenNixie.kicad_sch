@@ -5934,10 +5934,10 @@
     (property "Datasheet" "" (at 214.63 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83e3))
-    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83e3))
-    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec7605))
-    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec7605))
+    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83e5))
+    (pin "A" (uuid abddaff5-ee04-4ff0-ba8f-30a1f7ef83e5))
+    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec7607))
+    (pin "GND" (uuid cf915887-0a51-4ce9-9733-a9234dec7607))
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e"
@@ -6336,7 +6336,7 @@
     (property "Reference" "R10" (at 74.93 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "6.8k" (at 83.82 77.47 90)
+    (property "Value" "1k" (at 83.82 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 79.375 78.74 0)
