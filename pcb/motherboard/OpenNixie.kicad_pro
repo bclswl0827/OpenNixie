@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -174,7 +174,11 @@
       ],
       "track_widths": [
         0.0,
-        0.08
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -834,16 +838,12 @@
       ""
     ],
     [
-      "00000000-0000-0000-0000-000068d6c884",
-      "Decoder Inverter"
+      "545c80a3-4428-4177-bd00-aff3c7b3037d",
+      "Segment Select"
     ],
     [
-      "00000000-0000-0000-0000-000066554687",
-      "Nixie X-axes"
-    ],
-    [
-      "00000000-0000-0000-0000-00006655b5ad",
-      "Nixie Y-axes"
+      "3a351cf1-25b2-4939-9e7f-12d4a9bbcf02",
+      "Bit Select"
     ]
   ],
   "text_variables": {}
