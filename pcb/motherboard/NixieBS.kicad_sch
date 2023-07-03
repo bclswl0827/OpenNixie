@@ -450,7 +450,7 @@
   (symbol (lib_id "Device:R_Small") (at 160.655 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 932cec32-aea9-4e23-91d8-971d4e242e21)
-    (property "Reference" "R30" (at 162.1536 46.9813 0)
+    (property "Reference" "R20" (at 162.1536 46.9813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 162.1536 48.9023 0)
@@ -467,7 +467,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R30") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -496,7 +496,7 @@
           (reference "R?") (unit 1)
         )
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R31") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -525,7 +525,7 @@
           (reference "R?") (unit 1)
         )
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R32") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -564,7 +564,7 @@
   (symbol (lib_id "Device:R_Small") (at 149.225 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9247a5a-cc4e-419b-b490-1f617ad23e46)
-    (property "Reference" "R29" (at 150.7236 46.9813 0)
+    (property "Reference" "R19" (at 150.7236 46.9813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 150.7236 48.9023 0)
@@ -581,7 +581,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R29") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -620,7 +620,7 @@
   (symbol (lib_id "Device:R_Small") (at 137.795 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9ef60a1-a635-4d06-bf39-2d53672aaf29)
-    (property "Reference" "R28" (at 139.2936 46.9813 0)
+    (property "Reference" "R18" (at 139.2936 46.9813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 139.2936 48.9023 0)
@@ -637,7 +637,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R28") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -666,7 +666,7 @@
           (reference "R?") (unit 1)
         )
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R33") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -695,7 +695,7 @@
           (reference "R?") (unit 1)
         )
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R34") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -704,7 +704,7 @@
   (symbol (lib_id "Device:R_Small") (at 126.365 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebbdd905-6c13-417f-a600-d2f3aaeff175)
-    (property "Reference" "R27" (at 127.8636 46.9813 0)
+    (property "Reference" "R17" (at 127.8636 46.9813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 127.8636 48.9023 0)
@@ -721,7 +721,7 @@
     (instances
       (project "OpenNixie"
         (path "/2b75b537-ab0e-4c23-8f3b-4f491320330e/3a351cf1-25b2-4939-9e7f-12d4a9bbcf02"
-          (reference "R27") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )

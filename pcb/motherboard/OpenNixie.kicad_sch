@@ -4364,7 +4364,7 @@
     (property "Reference" "R1" (at 122.555 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10M" (at 130.81 21.59 90)
+    (property "Value" "1M" (at 130.81 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 126.365 22.86 0)
