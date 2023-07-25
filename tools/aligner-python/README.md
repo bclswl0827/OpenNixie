@@ -1,6 +1,6 @@
 # aligner-go
 
-This is an OpenNixie time calibration program written in Go.
+This is an OpenNixie time calibration program written in Python.
 
 ## Quick Start
 
@@ -19,11 +19,11 @@ $ ls -l /dev/rfcomm0
 crw-rw---- 1 root dialout 216, 0  9月  9 21:59 /dev/rfcomm0
 ```
 
-Then, compile and run this demo:
+Then, run this demo:
 
 ```bash
-$ go build
-$ ./aligner-go
+$ pip3 install -r requirements.txt
+$ python3 app.py
 ```
 
 ## Get Bluetooth MAC Address
