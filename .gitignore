@@ -3,18 +3,18 @@ firmware/.eide.usr*
 firmware/build
 firmware/.eide
 
-pcb/controller/*-backups
-pcb/controller/*-cache
-pcb/controller/*.kicad_prl
+circuit/controller/*-backups
+circuit/controller/*-cache
+circuit/controller/*.kicad_prl
 
-pcb/motherboard/*-backups
-pcb/motherboard/*-cache
-pcb/motherboard/*.kicad_prl
+circuit/motherboard/*-backups
+circuit/motherboard/*-cache
+circuit/motherboard/*.kicad_prl
 
-pcb/holder/QS-27/*-backups
-pcb/holder/QS-27/*-cache
-pcb/holder/QS-27/*.kicad_prl
+circuit/holder/QS-27/*-backups
+circuit/holder/QS-27/*-cache
+circuit/holder/QS-27/*.kicad_prl
 
-pcb/holder/IN12/*-backups
-pcb/holder/IN12/*-cache
-pcb/holder/IN12/*.kicad_prl
+circuit/holder/IN12/*-backups
+circuit/holder/IN12/*-cache
+circuit/holder/IN12/*.kicad_prl
