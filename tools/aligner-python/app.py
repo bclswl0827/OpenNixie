@@ -51,7 +51,7 @@ def main():
         return
 
     for i in range(7):
-        now = datetime.datetime.now()
+        now = datetime.datetime.now()+datetime.timedelta(seconds=1)
         year = now.year - 2000
         month = now.month
         day = now.day
