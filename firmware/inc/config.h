@@ -16,7 +16,7 @@
 #define CYCLE (CRYSTAL / 12)
 
 // 电平值定义
-#define LOW 0     // 低电平
-#define HIGH 1    // 高电平
+#define LOW 0   // 低电平
+#define HIGH 1  // 高电平
 
 #endif

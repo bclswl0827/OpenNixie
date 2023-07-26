@@ -6,8 +6,8 @@
 #endif
 
 #include <stdint.h>
-#include <wire.h>
 
+#include "framework/wire.h"
 #include "modules/rtc/types.h"
 
 void getTime(time_t* time);

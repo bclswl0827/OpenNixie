@@ -84,7 +84,7 @@ uint8_t SerialRead() {
 
 // 在超时前找到目标
 uint8_t SerialFind(uint8_t c) {
-    uint16_t t = 5000;
+    uint16_t t = _stream_timeout;
     while (t--) {
         if (SerialRead() == c) {
             return 1;

@@ -1,8 +1,5 @@
 #include "framework/wire.h"
 
-#define I2C_START 1   // 开始传输
-#define I2C_RESUME 0  // 连续传输
-
 uint8_t _wire_address = 0x00,  // 全局变量记录地址
     _wire_status = I2C_START,  // 继续传输标志
     _wire_remain = 0;          // 剩余字节数
