@@ -6,6 +6,7 @@ import getStructuredTime from "./helpers/getStructuredTime";
 import isFeatureSupport from "./helpers/isFeatureSupport";
 import pairBluetoothDev, { BluetoothDev } from "./helpers/pairBluetoothDev";
 import CONFIG from "./config";
+import sendBluetoothData from "./helpers/sendBluetoothData";
 
 interface AppState {
     hour: number;
@@ -63,40 +64,52 @@ export default class App extends Component<{}, AppState> {
             const { nixie_settings } = CONFIG;
 
             for (let i in nixie_settings) {
-                const buffer = new Uint8Array(3);
+                const buffer = [nixie_settings.cmd, nixie_settings[i], 0];
                 const { year, month, day, week, hour, minute, second } =
                     getStructuredTime();
 
-                buffer[0] = nixie_settings.cmd;
-                buffer[1] = nixie_settings[i];
                 switch (i) {
                     case "year":
+                        console.log(year);
                         buffer[2] = year;
                         break;
                     case "month":
+                        console.log(month);
                         buffer[2] = month;
                         break;
                     case "day":
+                        console.log(day);
                         buffer[2] = day;
                         break;
                     case "week":
+                        console.log(week);
                         buffer[2] = week;
                         break;
                     case "hour":
+                        console.log(hour);
                         buffer[2] = hour;
                         break;
                     case "minute":
+                        console.log(minute);
                         buffer[2] = minute;
                         break;
                     case "second":
+                        console.log(second);
                         buffer[2] = second;
                         break;
+                    default:
+                        continue;
                 }
 
-                await characteristic?.writeValue(buffer);
+                await sendBluetoothData(characteristic, buffer);
+                toast.success(
+                    `Nixie ${i} has been set, dont move device or close this page.`
+                );
             }
 
-            toast.success("Nixie calibration has completed.");
+            toast.success(
+                "Nixie clock calibration has completed, refresh the page to start again."
+            );
         } catch (err: any) {
             toast.error(err.message);
         }

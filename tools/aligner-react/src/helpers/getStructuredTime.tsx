@@ -12,8 +12,8 @@ const getStructuredTime = (): StructuredTime => {
     const date = new Date();
 
     return {
-        year: date.getFullYear(),
-        month: date.getMonth(),
+        year: date.getFullYear() - 2000,
+        month: date.getMonth() + 1,
         day: date.getDate(),
         week: date.getDay(),
         hour: date.getHours(),
