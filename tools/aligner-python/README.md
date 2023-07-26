@@ -1,4 +1,4 @@
-# aligner-go
+# aligner-python
 
 This is an OpenNixie time calibration program written in Python.
 
