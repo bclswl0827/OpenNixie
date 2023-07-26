@@ -18,3 +18,6 @@ circuit/holder/QS-27/*.kicad_prl
 circuit/holder/IN12/*-backups
 circuit/holder/IN12/*-cache
 circuit/holder/IN12/*.kicad_prl
+
+tools/aligner-react/node_modules
+tools/aligner-react/package-lock.json

@@ -21,7 +21,7 @@ void setProtection() {
         uint16_t s3 = setSegment(i);
 
         uint8_t enable = setEnable(ON);
-        uint8_t symbol = setSymbol(ON);
+        uint8_t symbol = setSymbol(OFF);
         for (uint8_t j = 0; j < 5; j++) {
             shiftOut(setNixie(enable, symbol, setBit(0), s0));
             shiftOut(setNixie(enable, symbol, setBit(1), s1));
@@ -100,6 +100,7 @@ void main() {
                         seg1 = setSegment(time.month % 10);
                         seg2 = setSegment(time.day / 10);
                         seg3 = setSegment(time.day % 10);
+                        symbol = setSymbol(OFF);
                         break;
                     case 3:
                         seg0 = setSegment(2);
