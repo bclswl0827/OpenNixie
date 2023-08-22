@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [],
+    "global": {
+        "device": "mcs51",
+        "optimize-type": "size",
+        "misc-controls": "--iram-size 256 --xram-size 0 --code-size 8192",
+        "out-debug-info": true
+    },
+    "c/cpp-compiler": {
+        "language-c": "sdcc11"
+    },
+    "asm-compiler": {},
+    "linker": {
+        "$mainFileName": "main",
+        "output-format": "hex"
+    }
+}
