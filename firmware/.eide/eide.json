@@ -27,7 +27,7 @@
       "uploader": "Custom",
       "uploadConfig": {
         "bin": "",
-        "commandLine": "python3 /home/yuki/Devel/stcgal/stcgal.py -p ${port} \"${hexFile}\" -b 115200",
+        "commandLine": "python ./tools/stcflash.py -p ${port} \"${hexFile}\"",
         "eraseChipCommand": ""
       },
       "uploadConfigMap": {},
