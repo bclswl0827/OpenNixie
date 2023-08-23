@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.0"
     },
-    "CreationDate": "2023-07-26T19:00:56+08:00"
+    "CreationDate": "2023-08-23T15:41:44+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "IN12",
-      "GUID": "494e3132-2e6b-4696-9361-645f70636258",
+      "Name": "IN-12",
+      "GUID": "494e2d31-322e-46b6-9963-61645f706362",
       "Revision": "rev?"
     },
     "Size": {
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "IN12-F_Cu.gbr",
+      "Path": "IN-12-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "IN12-B_Cu.gbr",
+      "Path": "IN-12-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "IN12-F_Paste.gbr",
+      "Path": "IN-12-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "IN12-B_Paste.gbr",
+      "Path": "IN-12-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "IN12-F_Silkscreen.gbr",
+      "Path": "IN-12-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "IN12-B_Silkscreen.gbr",
+      "Path": "IN-12-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "IN12-F_Mask.gbr",
+      "Path": "IN-12-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "IN12-B_Mask.gbr",
+      "Path": "IN-12-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "IN12-Edge_Cuts.gbr",
+      "Path": "IN-12-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
