@@ -16,7 +16,7 @@ uint8_t setBit(uint8_t val) {
             return 0x0E;
     }
 
-    return 0b1111;
+    return 0x0F;
 }
 
 uint8_t setSymbol(uint8_t val) {
