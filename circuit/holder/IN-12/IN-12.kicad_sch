@@ -490,7 +490,7 @@
     (pin "9" (uuid 5936d3c1-51f5-4719-aa21-38072263cdb3))
     (pin "A" (uuid 7ca114fd-2884-498b-8882-5c8e8e15a332))
     (instances
-      (project "IN12"
+      (project "IN-12"
         (path "/64d4dcc5-5d8a-445e-beaa-019edae91e45"
           (reference "J1") (unit 1)
         )
@@ -525,7 +525,7 @@
     (pin "9" (uuid 9cee5cbc-6735-4a6a-bfce-dc5b09346142))
     (pin "A" (uuid f5571af0-31b0-4e6e-a861-23efc88951a1))
     (instances
-      (project "IN12"
+      (project "IN-12"
         (path "/64d4dcc5-5d8a-445e-beaa-019edae91e45"
           (reference "NX1") (unit 1)
         )
