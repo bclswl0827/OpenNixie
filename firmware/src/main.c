@@ -1,6 +1,6 @@
 #include "framework/stream.h"
-#include "modules/nixie/shift.h"
-#include "modules/rtc/ds3231.h"
+#include "modules/ds3231.h"
+#include "modules/shift.h"
 
 #define CMD_WORD 0xE0
 #define ACK_WORD 0xE1
@@ -29,7 +29,7 @@ void setProtection() {
             shiftOut(setNixie(enable, symbol, setBit(3), s3));
 
             delayMicroseconds(10);
-            shiftOut(setNixie(setEnable(OFF), symbol, setBit(OFF), OFF));
+            shiftOut(setNixie(enable, symbol, setBit(OFF), OFF));
         }
     }
 }
@@ -117,7 +117,7 @@ void main() {
                 shiftOut(setNixie(enable, symbol, setBit(3), seg3));
 
                 delayMicroseconds(10);
-                shiftOut(setNixie(setEnable(OFF), symbol, OFF, OFF));
+                shiftOut(setNixie(enable, symbol, OFF, OFF));
             }
 
             if (i == 3) {

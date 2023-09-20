@@ -8,7 +8,18 @@
 #include <stdint.h>
 
 #include "framework/wire.h"
-#include "modules/rtc/types.h"
+
+#define DS3231_ADDRESS 0x68
+
+typedef struct {
+    uint8_t year;
+    uint8_t month;
+    uint8_t day;
+    uint8_t week;
+    uint8_t hour;
+    uint8_t minute;
+    uint8_t second;
+} time_t;
 
 void getTime(time_t* time);
 void setTime(time_t* time);

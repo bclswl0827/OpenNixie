@@ -1,4 +1,4 @@
-#include "modules/nixie/shift.h"
+#include "modules/shift.h"
 
 uint16_t setSegment(uint8_t val) {
     return val < 10 ? 1 << val : 0;

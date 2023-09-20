@@ -1,4 +1,4 @@
-#include "modules/rtc/ds3231.h"
+#include "modules/ds3231.h"
 
 // BCD 转整数
 uint8_t bcdToDec(uint8_t bcd) {
