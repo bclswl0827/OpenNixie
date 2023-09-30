@@ -29,7 +29,7 @@ void setProtection() {
             shiftOut(setNixie(enable, symbol, setBit(3), s3));
 
             delayMicroseconds(10);
-            shiftOut(setNixie(enable, symbol, setBit(OFF), OFF));
+            shiftOut(setNixie(enable, symbol, OFF, OFF));
         }
     }
 }
@@ -42,7 +42,13 @@ void main() {
 
     while (1) {
         for (uint8_t i = 0; i < 4; i++) {
-            for (uint16_t j = 0; j < 800; j++) {
+            if (!i) {
+                for (uint8_t j = 0; j < 3; j++) {
+                    setProtection();
+                }
+            }
+
+            for (uint16_t j = 0; j < 600; j++) {
                 if (SerialAvailable() && SerialRead() == CMD_WORD) {
                     uint8_t cmd = SerialRead();
                     uint8_t dat = SerialRead();
@@ -102,13 +108,6 @@ void main() {
                         seg3 = setSegment(time.day % 10);
                         symbol = setSymbol(OFF);
                         break;
-                    case 3:
-                        seg0 = setSegment(2);
-                        seg1 = setSegment(0);
-                        seg2 = setSegment(time.year / 10);
-                        seg3 = setSegment(time.year % 10);
-                        symbol = setSymbol(OFF);
-                        break;
                 }
 
                 shiftOut(setNixie(enable, symbol, setBit(0), seg0));
@@ -118,10 +117,6 @@ void main() {
 
                 delayMicroseconds(10);
                 shiftOut(setNixie(enable, symbol, OFF, OFF));
-            }
-
-            if (i == 3) {
-                setProtection();
             }
         }
     }
