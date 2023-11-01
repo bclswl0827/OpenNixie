@@ -1,27 +1,21 @@
 #include "framework/stream.h"
+#include "modules/74hc595.h"
 #include "modules/ds3231.h"
-#include "modules/shift.h"
+#include "modules/word.h"
 
-#define CMD_WORD 0xE0
-#define ACK_WORD 0xE1
+#define PROTECTION OFF
 
-#define YEAR_WORD 0xF1
-#define MONTH_WORD 0xF2
-#define DAY_WORD 0xF3
-#define WEEK_WORD 0xF4
-#define HOUR_WORD 0xF5
-#define MINUTE_WORD 0xF6
-#define SECOND_WORD 0xF7
-
+#if PROTECTION == ON
 void setProtection() {
     for (uint8_t i = 0; i < 10; i++) {
+        uint8_t enable = setEnable(ON);
+        uint8_t symbol = setSymbol(OFF);
+
         uint16_t s0 = setSegment(i);
         uint16_t s1 = setSegment(i);
         uint16_t s2 = setSegment(i);
         uint16_t s3 = setSegment(i);
 
-        uint8_t enable = setEnable(ON);
-        uint8_t symbol = setSymbol(OFF);
         for (uint8_t j = 0; j < 5; j++) {
             shiftOut(setNixie(enable, symbol, setBit(0), s0));
             shiftOut(setNixie(enable, symbol, setBit(1), s1));
@@ -33,6 +27,7 @@ void setProtection() {
         }
     }
 }
+#endif
 
 void main() {
     time_t time;
@@ -42,11 +37,13 @@ void main() {
 
     while (1) {
         for (uint8_t i = 0; i < 4; i++) {
+#if PROTECTION == ON
             if (!i) {
                 for (uint8_t j = 0; j < 3; j++) {
                     setProtection();
                 }
             }
+#endif
 
             for (uint16_t j = 0; j < 600; j++) {
                 if (SerialAvailable() && SerialRead() == CMD_WORD) {

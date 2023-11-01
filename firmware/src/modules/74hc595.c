@@ -1,4 +1,4 @@
-#include "modules/shift.h"
+#include "modules/74hc595.h"
 
 uint16_t setSegment(uint8_t val) {
     return val < 10 ? 1 << val : 0;

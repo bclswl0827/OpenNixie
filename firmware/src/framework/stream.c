@@ -4,16 +4,14 @@ uint16_t _stream_timeout = 10000;
 
 // 初始化串口
 void SerialBegin(uint16_t b) {
-    // 波特率加倍
-    PCON = 0x80;
-    // 八位数据模式
-    SCON = 0x50;
-    // 设定定时器 1 为 8 位自动重装模式
     TMOD = 0x20;
-    // 设定自动重装值，波特率
-    TH1 = TL1 = -(CRYSTAL / 12 / 32 / (b / 2));
-    // 启动定时器 1，打开总中断和接收中断
-    TR1 = EA = ES = 1;
+    SCON = 0x50;
+    TH1 = 256 - FOSC / 16 / 12 / b;
+    TL1 = TH1;
+    PCON = 0x80;
+    TR1 = 0x01;
+    EA = 0x01;
+    ES = 0x01;
 }
 
 // 结束串口
@@ -108,12 +106,3 @@ uint8_t SerialAvailable() {
     // 读取接收中断标志
     return RI;
 }
-
-#ifdef USE_STDIO
-// 重写 putchar 以实现 printf
-int putchar(uint8_t c) {
-    // 将内容重定向到串口
-    SerialWrite(c);
-    return c;
-}
-#endif

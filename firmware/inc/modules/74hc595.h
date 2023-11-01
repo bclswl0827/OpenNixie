@@ -1,5 +1,5 @@
-#ifndef __MODULE_NIXIE_SHIFT_H
-#define __MODULE_NIXIE_SHIFT_H
+#ifndef __MODULE_74HC595_H
+#define __MODULE_74HC595_H
 
 #ifndef __SDCC
 #error "This header file must be used for SDCC compiler !"

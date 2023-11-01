@@ -25,8 +25,5 @@ uint8_t SerialRead(void);
 uint8_t SerialFind(uint8_t c);
 void SerialReadBytes(uint8_t* buf, uint8_t length) __reentrant;
 uint8_t SerialAvailable(void);
-#ifdef USE_STDIO
-int putchar(uint8_t c);
-#endif
 
 #endif

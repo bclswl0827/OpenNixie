@@ -1,5 +1,5 @@
-#ifndef __MODULE_RTC_DS3231_H
-#define __MODULE_RTC_DS3231_H
+#ifndef __MODULE_DS3231_H
+#define __MODULE_DS3231_H
 
 #ifndef __SDCC
 #error "This header file must be used for SDCC compiler !"
